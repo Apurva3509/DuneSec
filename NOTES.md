@@ -1,5 +1,8 @@
 # DDoS Detection System Analysis & Design Notes
 
+Given the dataset, we have 80 numerical features and 1 target variable and the other 4 features were dropped due because they were just identifier columns and were not relevant for modelling.
+
+
 Target variable: Label
 - 1: DDoS (56.713608%)
 - 0: BENIGN (43.286392%)
@@ -13,30 +16,24 @@ Alternative Handling(imlemented in pipeline):
 2. Stratified Sampling: Ensuring train-test splits maintain the distribution.
 
 
-## Exploratory Data Analysis (EDA)
+## Data Exploration and Analysis (EDA)
 Data columns have been cleaned and preprocessed to account for missing values, infinite values, duplicate rows and also the random spaces in the column names.
-1. Missing 
-
-We have 80 numerical features and 1 target variable and the other 4 features were dropped due because they were just identifier columns and were not relevant for modelling.
-
-Dropped non-predictive columns: Flow ID, IPs, Timestamp
-
+1. Missing values were dropped(0.015% of the data - negligible)
+2. Duplicate rows were also dropped(0.02% of the data - negligible)
+3. Features having inf were replaced with nan.
+4. Label encoding was applied to the target variable(BENIGN -> 0, DDoS -> 1)
 
 
+## 1. Data Split Strategy
 
+- DDoS detection tasks can be sensitive to distribution drift, so it’s often beneficial to ensure that random sampling does not inadvertently end up with mostly similar flows in train or test sets.
+- This ensures the model generalizes rather than memorizes a specific subset of flows.
 
-
-
-
-## Data Analysis Insights
-
-### 1. Data Split Strategy
 - Training Set: 90% of data
   * Large enough for feature importance analysis
 
 - Test Set: 10% of data
-  * Held out for final evaluation
-  * Never used during training
+  * Held out for final evaluation(completely unseen data reserved for final evaluation)
   * Will provide unbiased performance metrics
 
 - Validation Strategy:
@@ -45,10 +42,52 @@ Dropped non-predictive columns: Flow ID, IPs, Timestamp
   * Ensures model generalization and optimal HP choices found using GridSearchCV
 
 ### 2. Dataset Characteristics
-- Total Records: [Your total number] network flows
 - Random seed: 42 (for reproducibility)
 
-Label encoding: BENIGN -> 0, DDoS -> 1
+
+# Implementation Details
+Since we have multiple model to choose from we can consider various factors to choose the best model. The goal is to find the best model that can generalize well on the test set and that too with a good F1 score and minimal data processing.
+
+Since we have a lot of features to choose from, we can use feature importance to choose the top features and then use those features to train the model. But here we will use all the features and see how the model performs.
+
+To ensure that we have a good model and to minimize the data processing, we will use the following models:
+- XGBoost
+- Random Forest
+- Logistic Regression
+- MLP Neural Network
+
+To achieve minimal data processing we can choose Random Forest and XGBoost as tree based models don't require scaling of features and are also prone to overfitting and outliers. An added advantage is that they are also relatively fast to train and easily interpretable.\\
+
+Logistic Regression and MLP are also reasonably good but they don't scale well and are also prone to overfitting easily.
+
+1. Preelimnary modelling
+We have implemented a pipeline for data preprocessing, model training and evaluation. We will use GridSearchCV to find the best hyperparameters for all the models and choose 1 to run the pipeline(here Random Forest is chosen).
+
+2. Metrics:
+Given the updated class distribution (56.71% DDoS, 43.29% BENIGN), F1-score is a better metric than accuracy for this case:
+
+However, in security contexts, false negatives (missing attacks) are more costly than false positives
+Why F1-Score is Better Here
+F1-score is the harmonic mean of precision and recall
+It helps balance:
+Precision: Avoiding false DDoS alerts
+Recall: Not missing actual DDoS attacks
+Particularly important because:
+False Positives = Unnecessary system shutdowns/alerts
+False Negatives = Missed attacks (very costly)
+
+Business Impact
+F1-score better reflects the business cost of errors
+Helps optimize the model for both:
+Minimizing false alarms
+Maximizing attack detection
+More suitable for security applications
+Model Tuning
+F1-score helps tune the classification threshold
+Balances the trade-off between precision and recall
+More informative for model selection and optimization
+Therefore, while accuracy is good for general performance understanding, F1-score provides a more nuanced and appropriate metric for this security application.
+
 
 # Results and Evaluation
 
