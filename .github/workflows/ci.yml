@@ -1,4 +1,4 @@
-name: CI/CD Pipeline
+name: CI
 
 on:
   push:
@@ -7,9 +7,9 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
-
+    
     steps:
     - uses: actions/checkout@v2
     
@@ -22,10 +22,24 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        pip install pytest pytest-cov
+    
+    - name: Create test directories and files
+      run: |
+        mkdir -p data/raw
+        mkdir -p data/processed
+        mkdir -p models
+        mkdir -p reports/figures
+        mkdir -p reports/results
+        touch data/raw/network_traffic.csv
     
     - name: Run tests
       run: |
-        pytest
-    
-    - name: Build Docker image
-      run: docker build -t ddos-detection . 
+        python -m pytest tests/ -v --cov=src
+      env:
+        PYTHONPATH: ${{ github.workspace }}
+
+    - name: Upload coverage reports
+      uses: codecov/codecov-action@v3
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }} 
