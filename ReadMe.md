@@ -41,7 +41,7 @@ mkdir -p logs
 
 ### 3. Run the Pipeline
 ```bash
-# Step 1: Split the data into train (90%) and test (10%) sets
+# Step 1: Split the data into train (70%) and test (30%) sets
 python main.py --mode split
 
 # Step 2: Train the model

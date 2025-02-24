@@ -209,12 +209,14 @@ class DataPreprocessor:
             X = df.drop("Label", axis=1)
             y = df["Label"]
             
-            # Create the split
+            # Load config
+            with open('config/config.yaml', 'r') as f:
+                config = yaml.safe_load(f)
+
+            # Use split ratio from config
+            test_size = config['data']['train_test_split']
             X_train, X_test, y_train, y_test = train_test_split(
-                X, y, 
-                test_size=0.3,
-                stratify=y,
-                random_state=42
+                X, y, test_size=test_size, stratify=y, random_state=42
             )
             
             # Scale the features

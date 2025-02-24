@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 import joblib
+import yaml
 from src.data.data_preprocessing import DataPreprocessor
 from src.models.model_trainer import ModelTrainer
 from src.evaluation.model_evaluation import ModelEvaluator
@@ -11,6 +12,11 @@ import datetime
 from sklearn.model_selection import train_test_split
 
 logger = setup_logger()
+
+def load_config():
+    """Load configuration from yaml file."""
+    with open('config/config.yaml', 'r') as f:
+        return yaml.safe_load(f)
 
 def create_initial_split():
     """Create initial train-test split."""
@@ -41,14 +47,21 @@ def main(mode: str):
     try:
         if mode == 'split':
             logger.info("Loading and splitting data...")
+            
+            # Load config and data
+            config = load_config()
             df = pd.read_csv("data/raw/network_traffic.csv")
             
             preprocessor = DataPreprocessor()
             X, y = preprocessor.fit_transform(df)
             
-            # Create train-test split
+            # Create train-test split using config value
+            test_size = config['data']['train_test_split']
             X_train, X_test, y_train, y_test = train_test_split(
-                X, y, test_size=0.3, stratify=y, random_state=42
+                X, y, 
+                test_size=test_size,
+                stratify=y, 
+                random_state=config['data']['random_state']
             )
             
             # Save splits with proper index=False to avoid extra columns
@@ -56,11 +69,14 @@ def main(mode: str):
             
             # Save training data
             train_df = pd.concat([X_train, pd.Series(y_train, name='Label')], axis=1)
-            train_df.to_csv("data/processed/train.csv", index=False, float_format='%.6f')  # Control float precision
+            train_df.to_csv("data/processed/train.csv", index=False, float_format='%.6f')
             
             # Save test data
             test_df = pd.concat([X_test, pd.Series(y_test, name='Label')], axis=1)
-            test_df.to_csv("data/processed/test.csv", index=False, float_format='%.6f')  # Control float precision
+            test_df.to_csv("data/processed/test.csv", index=False, float_format='%.6f')
+            
+            logger.info(f"Split completed. Training set size: {len(train_df)}, Test set size: {len(test_df)}")
+            logger.info(f"Using test_size={test_size} from config")
             
         elif mode == 'train':
             # Load and validate training data

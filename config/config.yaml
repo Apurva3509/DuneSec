@@ -2,7 +2,7 @@
 data:
   raw_data_path: "data/raw/network_traffic.csv"
   processed_data_path: "data/processed/"
-  train_test_split: 0.2
+  train_test_split: 0.3
   random_state: 42
 
 # Feature Configuration
