@@ -376,3 +376,387 @@
 2025-02-23 22:48:28,615 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
 2025-02-23 22:48:28,615 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
 2025-02-23 22:48:28,615 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-23 22:58:40,742 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-23 22:58:40,742 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-23 22:58:40,742 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-23 22:58:40,742 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-23 22:58:40,742 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-23 22:58:40,742 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-23 22:58:40,742 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-23 22:58:40,742 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-23 22:58:47,039 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-23 22:58:47,039 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-23 22:58:47,039 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-23 22:58:47,039 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-23 22:58:47,039 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-23 22:58:47,039 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-23 22:58:47,039 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-23 22:58:47,039 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-23 22:58:47,040 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-23 22:58:47,040 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-23 22:58:47,040 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-23 22:58:47,040 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-23 22:58:47,040 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-23 22:58:47,040 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-23 22:58:47,040 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-23 22:58:47,040 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-23 22:58:47,041 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-23 22:58:47,041 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-23 22:58:47,041 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-23 22:58:47,041 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-23 22:58:47,041 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-23 22:58:47,041 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-23 22:58:47,041 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-23 22:58:47,041 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-23 22:59:08,660 - DDosDetection - INFO - Loading training data...
+2025-02-23 22:59:08,660 - DDosDetection - INFO - Loading training data...
+2025-02-23 22:59:08,660 - DDosDetection - INFO - Loading training data...
+2025-02-23 22:59:08,660 - DDosDetection - INFO - Loading training data...
+2025-02-23 22:59:08,660 - DDosDetection - INFO - Loading training data...
+2025-02-23 22:59:08,660 - DDosDetection - INFO - Loading training data...
+2025-02-23 22:59:08,660 - DDosDetection - INFO - Loading training data...
+2025-02-23 22:59:08,660 - DDosDetection - INFO - Loading training data...
+2025-02-23 22:59:09,853 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 22:59:09,853 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 22:59:09,853 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 22:59:09,853 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 22:59:09,853 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 22:59:09,853 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 22:59:09,853 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 22:59:09,853 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 22:59:10,725 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 22:59:10,725 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 22:59:10,725 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 22:59:10,725 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 22:59:10,725 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 22:59:10,725 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 22:59:10,725 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 22:59:10,725 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 22:59:10,726 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 22:59:10,726 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 22:59:10,726 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 22:59:10,726 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 22:59:10,726 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 22:59:10,726 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 22:59:10,726 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 22:59:10,726 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 22:59:10,737 - DDosDetection - INFO - Starting model training...
+2025-02-23 22:59:10,737 - DDosDetection - INFO - Starting model training...
+2025-02-23 22:59:10,737 - DDosDetection - INFO - Starting model training...
+2025-02-23 22:59:10,737 - DDosDetection - INFO - Starting model training...
+2025-02-23 22:59:10,737 - DDosDetection - INFO - Starting model training...
+2025-02-23 22:59:10,737 - DDosDetection - INFO - Starting model training...
+2025-02-23 22:59:10,737 - DDosDetection - INFO - Starting model training...
+2025-02-23 22:59:10,737 - DDosDetection - INFO - Starting model training...
+2025-02-23 22:59:10,860 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 22:59:10,860 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 22:59:10,860 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 22:59:10,860 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 22:59:10,860 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 22:59:10,860 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 22:59:10,860 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 22:59:10,860 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:01:56,706 - DDosDetection - ERROR - Error in model training: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,706 - DDosDetection - ERROR - Error in model training: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,706 - DDosDetection - ERROR - Error in model training: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,706 - DDosDetection - ERROR - Error in model training: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,706 - DDosDetection - ERROR - Error in model training: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,706 - DDosDetection - ERROR - Error in model training: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,706 - DDosDetection - ERROR - Error in model training: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,706 - DDosDetection - ERROR - Error in model training: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,709 - DDosDetection - ERROR - Error in main execution: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,709 - DDosDetection - ERROR - Error in main execution: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,709 - DDosDetection - ERROR - Error in main execution: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,709 - DDosDetection - ERROR - Error in main execution: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,709 - DDosDetection - ERROR - Error in main execution: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,709 - DDosDetection - ERROR - Error in main execution: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,709 - DDosDetection - ERROR - Error in main execution: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:01:56,709 - DDosDetection - ERROR - Error in main execution: Path '/Users/apurva/Desktop/Apurva/Columbia/SEM3/DuneSec/models/model.xgb' already exists and is not empty
+2025-02-23 23:04:56,965 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:04:56,965 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:04:56,965 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:04:56,965 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:04:56,965 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:04:56,965 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:04:56,965 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:04:56,965 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:04:59,310 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:04:59,310 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:04:59,310 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:04:59,310 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:04:59,310 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:04:59,310 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:04:59,310 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:04:59,310 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:05:01,150 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:05:01,150 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:05:01,150 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:05:01,150 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:05:01,150 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:05:01,150 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:05:01,150 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:05:01,150 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:05:01,152 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:05:01,152 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:05:01,152 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:05:01,152 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:05:01,152 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:05:01,152 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:05:01,152 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:05:01,152 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:05:01,179 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:05:01,179 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:05:01,179 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:05:01,179 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:05:01,179 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:05:01,179 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:05:01,179 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:05:01,179 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:05:01,481 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:05:01,481 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:05:01,481 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:05:01,481 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:05:01,481 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:05:01,481 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:05:01,481 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:05:01,481 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:07:30,989 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:07:30,989 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:07:30,989 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:07:30,989 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:07:30,989 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:07:30,989 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:07:30,989 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:07:30,989 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:07:30,991 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:07:30,991 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:07:30,991 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:07:30,991 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:07:30,991 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:07:30,991 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:07:30,991 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:07:30,991 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:07:30,998 - DDosDetection - ERROR - Error in main execution: name 'mlflow' is not defined
+2025-02-23 23:07:30,998 - DDosDetection - ERROR - Error in main execution: name 'mlflow' is not defined
+2025-02-23 23:07:30,998 - DDosDetection - ERROR - Error in main execution: name 'mlflow' is not defined
+2025-02-23 23:07:30,998 - DDosDetection - ERROR - Error in main execution: name 'mlflow' is not defined
+2025-02-23 23:07:30,998 - DDosDetection - ERROR - Error in main execution: name 'mlflow' is not defined
+2025-02-23 23:07:30,998 - DDosDetection - ERROR - Error in main execution: name 'mlflow' is not defined
+2025-02-23 23:07:30,998 - DDosDetection - ERROR - Error in main execution: name 'mlflow' is not defined
+2025-02-23 23:07:30,998 - DDosDetection - ERROR - Error in main execution: name 'mlflow' is not defined
+2025-02-23 23:11:58,414 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:11:58,414 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:11:58,414 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:11:58,414 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:11:58,414 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:11:58,414 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:11:58,414 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:11:58,414 - DDosDetection - INFO - Loading training data...
+2025-02-23 23:11:59,604 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:11:59,604 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:11:59,604 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:11:59,604 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:11:59,604 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:11:59,604 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:11:59,604 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:11:59,604 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:12:00,507 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-23 23:12:00,515 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:12:00,515 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:12:00,515 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:12:00,515 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:12:00,515 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:12:00,515 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:12:00,515 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:12:00,515 - DDosDetection - INFO - Starting model training...
+2025-02-23 23:12:00,528 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:12:00,528 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:12:00,528 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:12:00,528 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:12:00,528 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:12:00,528 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:12:00,528 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:12:00,528 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-23 23:14:25,657 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-23 23:14:25,657 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-23 23:14:25,657 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-23 23:14:25,657 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-23 23:14:25,657 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-23 23:14:25,657 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-23 23:14:25,657 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-23 23:14:25,657 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-23 23:14:25,659 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:14:25,659 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:14:25,659 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:14:25,659 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:14:25,659 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:14:25,659 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:14:25,659 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:14:25,659 - DDosDetection - INFO - Model training completed successfully
+2025-02-23 23:14:25,663 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:14:25,663 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:14:25,663 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:14:25,663 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:14:25,663 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:14:25,663 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:14:25,663 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:14:25,663 - DDosDetection - INFO - Starting model evaluation...
+2025-02-23 23:14:26,674 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-23 23:14:26,674 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-23 23:14:26,674 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-23 23:14:26,674 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-23 23:14:26,674 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-23 23:14:26,674 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-23 23:14:26,674 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-23 23:14:26,674 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-23 23:14:26,675 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-23 23:14:26,675 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-23 23:14:26,675 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-23 23:14:26,675 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-23 23:14:26,675 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-23 23:14:26,675 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-23 23:14:26,675 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-23 23:14:26,675 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-23 23:14:55,996 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-23 23:14:55,996 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-23 23:14:55,996 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-23 23:14:55,996 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-23 23:14:55,996 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-23 23:14:55,996 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-23 23:14:55,996 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-23 23:14:55,996 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-23 23:14:56,284 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-23 23:14:56,284 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-23 23:14:56,284 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-23 23:14:56,284 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-23 23:14:56,284 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-23 23:14:56,284 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-23 23:14:56,284 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-23 23:14:56,284 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-23 23:14:56,285 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000

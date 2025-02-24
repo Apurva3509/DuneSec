@@ -1,52 +1,66 @@
 import argparse
+import pandas as pd
+import mlflow
+import mlflow.xgboost
+from src.data.initial_split import create_initial_split
 from src.data.data_ingestion import DataIngestion
 from src.data.data_preprocessing import DataPreprocessor
 from src.models.model_trainer import ModelTrainer
 from src.evaluation.model_evaluation import ModelEvaluator
-import mlflow
+from src.evaluation.test_predictor import TestPredictor
 from src.utils.logger import setup_logger
-import yaml
+import xgboost as xgb
+import joblib
+from pathlib import Path
 
 logger = setup_logger()
 
 def main(mode: str):
     """Main execution function."""
     try:
-        # Load configuration
-        with open("config/config.yaml", 'r') as f:
-            config = yaml.safe_load(f)
-        
-        if mode in ['train', 'all']:
-            # Data ingestion
-            logger.info("Starting data ingestion...")
+        if mode == 'split':
+            # Perform initial train-test split
+            logger.info("Performing initial 90-10 data split...")
+            create_initial_split()
+            
+        elif mode == 'train':
+            # Train model using training data
+            logger.info("Loading training data...")
             data_ingestion = DataIngestion()
-            df = data_ingestion.load_data()
-            train_df, test_df = data_ingestion.split_data(df)
+            train_df = pd.read_csv("data/train/training_data.csv")
             
             # Data preprocessing
             logger.info("Starting data preprocessing...")
             preprocessor = DataPreprocessor()
             X_train, y_train = preprocessor.fit_transform(train_df)
-            X_test, y_test = preprocessor.transform(test_df)
             
             # Model training
             logger.info("Starting model training...")
             trainer = ModelTrainer()
-            trainer.train(X_train, y_train)
+            model = trainer.train(X_train, y_train)
+            
+            # Save model using joblib instead of mlflow
+            model_path = Path("models")
+            model_path.mkdir(exist_ok=True)
+            joblib.dump(model, model_path / "model.joblib")
             
             # Model evaluation
             logger.info("Starting model evaluation...")
             evaluator = ModelEvaluator()
-            model = mlflow.xgboost.load_model("models/model.xgb")
-            metrics = evaluator.evaluate(model, X_test, y_test)
+            metrics = evaluator.evaluate(model, X_train, y_train)
             
             logger.info(f"Final ROC-AUC Score: {metrics['roc_auc']:.4f}")
-        
-        if mode == 'predict':
-            # Load model and make predictions
-            logger.info("Loading model for predictions...")
-            model = mlflow.xgboost.load_model("models/model.xgb")
-            # Add prediction logic here
+            
+        elif mode == 'test':
+            # Evaluate on hold-out test set
+            logger.info("Evaluating model on hold-out test set...")
+            predictor = TestPredictor()
+            metrics = predictor.predict_holdout_set()
+            
+        elif mode == 'predict':
+            # Make predictions on new data
+            logger.info("Making predictions on new data...")
+            # [Add your prediction code here]
             
     except Exception as e:
         logger.error(f"Error in main execution: {str(e)}")
@@ -57,9 +71,9 @@ if __name__ == "__main__":
     parser.add_argument(
         "--mode",
         type=str,
-        choices=['train', 'predict', 'all'],
-        default='all',
-        help="Execution mode: train, predict, or all"
+        choices=['split', 'train', 'test', 'predict'],
+        required=True,
+        help="Execution mode: split (initial split), train (train model), test (evaluate on hold-out), predict (new data)"
     )
     args = parser.parse_args()
     main(args.mode) 

@@ -10,5 +10,5 @@ flavors:
     model_class: xgboost.sklearn.XGBClassifier
     xgb_version: 1.6.1
 mlflow_version: 1.26.1
-model_uuid: 9acd0987b58246e08757e5338465d5eb
-utc_time_created: '2025-02-24 03:48:26.022189'
+model_uuid: cc26f3c23eae4770b7fb06d67ca87efc
+utc_time_created: '2025-02-24 04:07:28.991308'
