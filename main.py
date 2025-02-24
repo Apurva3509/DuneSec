@@ -39,7 +39,7 @@ def main(mode: str):
             trainer = ModelTrainer()
             model = trainer.train(X_train, y_train)
             
-            # Save model using joblib instead of mlflow
+            # Save model using joblib
             model_path = Path("models")
             model_path.mkdir(exist_ok=True)
             joblib.dump(model, model_path / "model.joblib")
@@ -49,7 +49,10 @@ def main(mode: str):
             evaluator = ModelEvaluator()
             metrics = evaluator.evaluate(model, X_train, y_train)
             
-            logger.info(f"Final ROC-AUC Score: {metrics['roc_auc']:.4f}")
+            if metrics and 'roc_auc' in metrics:
+                logger.info(f"Final ROC-AUC Score: {metrics['roc_auc']:.4f}")
+            else:
+                logger.warning("ROC-AUC Score not available in metrics")
             
         elif mode == 'test':
             # Evaluate on hold-out test set
