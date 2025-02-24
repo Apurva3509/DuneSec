@@ -760,3 +760,291 @@ ROC-AUC Score: 1.0000
 ROC-AUC Score: 1.0000
 2025-02-23 23:14:56,285 - DDosDetection - INFO - 
 ROC-AUC Score: 1.0000
+2025-02-24 12:07:18,700 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 12:07:18,700 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 12:07:18,700 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 12:07:18,700 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 12:07:18,700 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 12:07:18,700 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 12:07:18,700 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 12:07:18,700 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 12:07:54,124 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-24 12:07:54,124 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-24 12:07:54,124 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-24 12:07:54,124 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-24 12:07:54,124 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-24 12:07:54,124 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-24 12:07:54,124 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-24 12:07:54,124 - DDosDetection - INFO - Initial split completed successfully:
+2025-02-24 12:07:54,125 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-24 12:07:54,125 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-24 12:07:54,125 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-24 12:07:54,125 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-24 12:07:54,125 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-24 12:07:54,125 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-24 12:07:54,125 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-24 12:07:54,125 - DDosDetection - INFO - Training set size: 203168 samples
+2025-02-24 12:07:54,128 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-24 12:07:54,128 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-24 12:07:54,128 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-24 12:07:54,128 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-24 12:07:54,128 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-24 12:07:54,128 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-24 12:07:54,128 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-24 12:07:54,128 - DDosDetection - INFO - Hold-out test set size: 22575 samples
+2025-02-24 12:08:09,621 - DDosDetection - INFO - Loading training data...
+2025-02-24 12:08:09,621 - DDosDetection - INFO - Loading training data...
+2025-02-24 12:08:09,621 - DDosDetection - INFO - Loading training data...
+2025-02-24 12:08:09,621 - DDosDetection - INFO - Loading training data...
+2025-02-24 12:08:09,621 - DDosDetection - INFO - Loading training data...
+2025-02-24 12:08:09,621 - DDosDetection - INFO - Loading training data...
+2025-02-24 12:08:09,621 - DDosDetection - INFO - Loading training data...
+2025-02-24 12:08:09,621 - DDosDetection - INFO - Loading training data...
+2025-02-24 12:08:18,702 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 12:08:18,702 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 12:08:18,702 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 12:08:18,702 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 12:08:18,702 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 12:08:18,702 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 12:08:18,702 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 12:08:18,702 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 12:08:21,577 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-24 12:08:21,577 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-24 12:08:21,577 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-24 12:08:21,577 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-24 12:08:21,577 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-24 12:08:21,577 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-24 12:08:21,577 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-24 12:08:21,577 - DDosDetection - INFO - Data preprocessing completed successfully
+2025-02-24 12:08:21,578 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-24 12:08:21,578 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-24 12:08:21,578 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-24 12:08:21,578 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-24 12:08:21,578 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-24 12:08:21,578 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-24 12:08:21,578 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-24 12:08:21,578 - DDosDetection - INFO - Target classes mapping: {'BENIGN': 0, 'DDoS': 1}
+2025-02-24 12:08:21,630 - DDosDetection - INFO - Starting model training...
+2025-02-24 12:08:21,630 - DDosDetection - INFO - Starting model training...
+2025-02-24 12:08:21,630 - DDosDetection - INFO - Starting model training...
+2025-02-24 12:08:21,630 - DDosDetection - INFO - Starting model training...
+2025-02-24 12:08:21,630 - DDosDetection - INFO - Starting model training...
+2025-02-24 12:08:21,630 - DDosDetection - INFO - Starting model training...
+2025-02-24 12:08:21,630 - DDosDetection - INFO - Starting model training...
+2025-02-24 12:08:21,630 - DDosDetection - INFO - Starting model training...
+2025-02-24 12:08:21,661 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-24 12:08:21,661 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-24 12:08:21,661 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-24 12:08:21,661 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-24 12:08:21,661 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-24 12:08:21,661 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-24 12:08:21,661 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-24 12:08:21,661 - DDosDetection - INFO - XGBoost model built successfully
+2025-02-24 12:15:32,128 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-24 12:15:32,128 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-24 12:15:32,128 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-24 12:15:32,128 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-24 12:15:32,128 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-24 12:15:32,128 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-24 12:15:32,128 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-24 12:15:32,128 - DDosDetection - INFO - Cross-validation ROC-AUC: 1.0000 (+/- 0.0000)
+2025-02-24 12:15:32,131 - DDosDetection - INFO - Model training completed successfully
+2025-02-24 12:15:32,131 - DDosDetection - INFO - Model training completed successfully
+2025-02-24 12:15:32,131 - DDosDetection - INFO - Model training completed successfully
+2025-02-24 12:15:32,131 - DDosDetection - INFO - Model training completed successfully
+2025-02-24 12:15:32,131 - DDosDetection - INFO - Model training completed successfully
+2025-02-24 12:15:32,131 - DDosDetection - INFO - Model training completed successfully
+2025-02-24 12:15:32,131 - DDosDetection - INFO - Model training completed successfully
+2025-02-24 12:15:32,131 - DDosDetection - INFO - Model training completed successfully
+2025-02-24 12:15:32,174 - DDosDetection - INFO - Starting model evaluation...
+2025-02-24 12:15:32,174 - DDosDetection - INFO - Starting model evaluation...
+2025-02-24 12:15:32,174 - DDosDetection - INFO - Starting model evaluation...
+2025-02-24 12:15:32,174 - DDosDetection - INFO - Starting model evaluation...
+2025-02-24 12:15:32,174 - DDosDetection - INFO - Starting model evaluation...
+2025-02-24 12:15:32,174 - DDosDetection - INFO - Starting model evaluation...
+2025-02-24 12:15:32,174 - DDosDetection - INFO - Starting model evaluation...
+2025-02-24 12:15:32,174 - DDosDetection - INFO - Starting model evaluation...
+2025-02-24 12:15:33,990 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-24 12:15:33,990 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-24 12:15:33,990 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-24 12:15:33,990 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-24 12:15:33,990 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-24 12:15:33,990 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-24 12:15:33,990 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-24 12:15:33,990 - DDosDetection - INFO - Model evaluation completed successfully
+2025-02-24 12:15:33,991 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-24 12:15:33,991 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-24 12:15:33,991 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-24 12:15:33,991 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-24 12:15:33,991 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-24 12:15:33,991 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-24 12:15:33,991 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-24 12:15:33,991 - DDosDetection - INFO - Final ROC-AUC Score: 1.0000
+2025-02-24 12:17:27,402 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:17:27,402 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:17:27,402 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:17:27,402 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:17:27,402 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:17:27,402 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:17:27,402 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:17:27,402 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in prediction: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in prediction: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in prediction: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in prediction: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in prediction: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in prediction: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in prediction: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in prediction: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in main execution: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in main execution: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in main execution: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in main execution: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in main execution: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in main execution: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in main execution: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:17:27,706 - DDosDetection - ERROR - Error in main execution: X has 66 features, but StandardScaler is expecting 62 features as input.
+2025-02-24 12:20:35,859 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:20:35,859 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:20:35,859 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:20:35,859 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:20:35,859 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:20:35,859 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:20:35,859 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:20:35,859 - DDosDetection - INFO - Evaluating model on hold-out test set...
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Number of features in test set: 62
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Number of features in test set: 62
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Number of features in test set: 62
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Number of features in test set: 62
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Number of features in test set: 62
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Number of features in test set: 62
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Number of features in test set: 62
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Number of features in test set: 62
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Features being used: Source Port, Destination Port, Protocol, Flow Duration, Total Fwd Packets, Total Backward Packets, Total Length of Fwd Packets, Total Length of Bwd Packets, Fwd Packet Length Max, Fwd Packet Length Min, Fwd Packet Length Mean, Bwd Packet Length Max, Bwd Packet Length Min, Bwd Packet Length Mean, Flow Bytes/s, Flow Packets/s, Flow IAT Mean, Flow IAT Min, Fwd IAT Mean, Fwd IAT Min, Bwd IAT Total, Bwd IAT Mean, Bwd IAT Std, Bwd IAT Max, Fwd PSH Flags, Bwd PSH Flags, Fwd URG Flags, Bwd URG Flags, Fwd Packets/s, Bwd Packets/s, Min Packet Length, Max Packet Length, Packet Length Variance, FIN Flag Count, SYN Flag Count, RST Flag Count, PSH Flag Count, ACK Flag Count, URG Flag Count, CWE Flag Count, ECE Flag Count, Down/Up Ratio, Average Packet Size, Fwd Header Length.1, Fwd Avg Bytes/Bulk, Fwd Avg Packets/Bulk, Fwd Avg Bulk Rate, Bwd Avg Bytes/Bulk, Bwd Avg Packets/Bulk, Bwd Avg Bulk Rate, Subflow Fwd Bytes, Subflow Bwd Bytes, Init_Win_bytes_forward, Init_Win_bytes_backward, act_data_pkt_fwd, min_seg_size_forward, Active Mean, Active Std, Active Max, Idle Mean, Idle Std, Idle Max
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Features being used: Source Port, Destination Port, Protocol, Flow Duration, Total Fwd Packets, Total Backward Packets, Total Length of Fwd Packets, Total Length of Bwd Packets, Fwd Packet Length Max, Fwd Packet Length Min, Fwd Packet Length Mean, Bwd Packet Length Max, Bwd Packet Length Min, Bwd Packet Length Mean, Flow Bytes/s, Flow Packets/s, Flow IAT Mean, Flow IAT Min, Fwd IAT Mean, Fwd IAT Min, Bwd IAT Total, Bwd IAT Mean, Bwd IAT Std, Bwd IAT Max, Fwd PSH Flags, Bwd PSH Flags, Fwd URG Flags, Bwd URG Flags, Fwd Packets/s, Bwd Packets/s, Min Packet Length, Max Packet Length, Packet Length Variance, FIN Flag Count, SYN Flag Count, RST Flag Count, PSH Flag Count, ACK Flag Count, URG Flag Count, CWE Flag Count, ECE Flag Count, Down/Up Ratio, Average Packet Size, Fwd Header Length.1, Fwd Avg Bytes/Bulk, Fwd Avg Packets/Bulk, Fwd Avg Bulk Rate, Bwd Avg Bytes/Bulk, Bwd Avg Packets/Bulk, Bwd Avg Bulk Rate, Subflow Fwd Bytes, Subflow Bwd Bytes, Init_Win_bytes_forward, Init_Win_bytes_backward, act_data_pkt_fwd, min_seg_size_forward, Active Mean, Active Std, Active Max, Idle Mean, Idle Std, Idle Max
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Features being used: Source Port, Destination Port, Protocol, Flow Duration, Total Fwd Packets, Total Backward Packets, Total Length of Fwd Packets, Total Length of Bwd Packets, Fwd Packet Length Max, Fwd Packet Length Min, Fwd Packet Length Mean, Bwd Packet Length Max, Bwd Packet Length Min, Bwd Packet Length Mean, Flow Bytes/s, Flow Packets/s, Flow IAT Mean, Flow IAT Min, Fwd IAT Mean, Fwd IAT Min, Bwd IAT Total, Bwd IAT Mean, Bwd IAT Std, Bwd IAT Max, Fwd PSH Flags, Bwd PSH Flags, Fwd URG Flags, Bwd URG Flags, Fwd Packets/s, Bwd Packets/s, Min Packet Length, Max Packet Length, Packet Length Variance, FIN Flag Count, SYN Flag Count, RST Flag Count, PSH Flag Count, ACK Flag Count, URG Flag Count, CWE Flag Count, ECE Flag Count, Down/Up Ratio, Average Packet Size, Fwd Header Length.1, Fwd Avg Bytes/Bulk, Fwd Avg Packets/Bulk, Fwd Avg Bulk Rate, Bwd Avg Bytes/Bulk, Bwd Avg Packets/Bulk, Bwd Avg Bulk Rate, Subflow Fwd Bytes, Subflow Bwd Bytes, Init_Win_bytes_forward, Init_Win_bytes_backward, act_data_pkt_fwd, min_seg_size_forward, Active Mean, Active Std, Active Max, Idle Mean, Idle Std, Idle Max
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Features being used: Source Port, Destination Port, Protocol, Flow Duration, Total Fwd Packets, Total Backward Packets, Total Length of Fwd Packets, Total Length of Bwd Packets, Fwd Packet Length Max, Fwd Packet Length Min, Fwd Packet Length Mean, Bwd Packet Length Max, Bwd Packet Length Min, Bwd Packet Length Mean, Flow Bytes/s, Flow Packets/s, Flow IAT Mean, Flow IAT Min, Fwd IAT Mean, Fwd IAT Min, Bwd IAT Total, Bwd IAT Mean, Bwd IAT Std, Bwd IAT Max, Fwd PSH Flags, Bwd PSH Flags, Fwd URG Flags, Bwd URG Flags, Fwd Packets/s, Bwd Packets/s, Min Packet Length, Max Packet Length, Packet Length Variance, FIN Flag Count, SYN Flag Count, RST Flag Count, PSH Flag Count, ACK Flag Count, URG Flag Count, CWE Flag Count, ECE Flag Count, Down/Up Ratio, Average Packet Size, Fwd Header Length.1, Fwd Avg Bytes/Bulk, Fwd Avg Packets/Bulk, Fwd Avg Bulk Rate, Bwd Avg Bytes/Bulk, Bwd Avg Packets/Bulk, Bwd Avg Bulk Rate, Subflow Fwd Bytes, Subflow Bwd Bytes, Init_Win_bytes_forward, Init_Win_bytes_backward, act_data_pkt_fwd, min_seg_size_forward, Active Mean, Active Std, Active Max, Idle Mean, Idle Std, Idle Max
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Features being used: Source Port, Destination Port, Protocol, Flow Duration, Total Fwd Packets, Total Backward Packets, Total Length of Fwd Packets, Total Length of Bwd Packets, Fwd Packet Length Max, Fwd Packet Length Min, Fwd Packet Length Mean, Bwd Packet Length Max, Bwd Packet Length Min, Bwd Packet Length Mean, Flow Bytes/s, Flow Packets/s, Flow IAT Mean, Flow IAT Min, Fwd IAT Mean, Fwd IAT Min, Bwd IAT Total, Bwd IAT Mean, Bwd IAT Std, Bwd IAT Max, Fwd PSH Flags, Bwd PSH Flags, Fwd URG Flags, Bwd URG Flags, Fwd Packets/s, Bwd Packets/s, Min Packet Length, Max Packet Length, Packet Length Variance, FIN Flag Count, SYN Flag Count, RST Flag Count, PSH Flag Count, ACK Flag Count, URG Flag Count, CWE Flag Count, ECE Flag Count, Down/Up Ratio, Average Packet Size, Fwd Header Length.1, Fwd Avg Bytes/Bulk, Fwd Avg Packets/Bulk, Fwd Avg Bulk Rate, Bwd Avg Bytes/Bulk, Bwd Avg Packets/Bulk, Bwd Avg Bulk Rate, Subflow Fwd Bytes, Subflow Bwd Bytes, Init_Win_bytes_forward, Init_Win_bytes_backward, act_data_pkt_fwd, min_seg_size_forward, Active Mean, Active Std, Active Max, Idle Mean, Idle Std, Idle Max
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Features being used: Source Port, Destination Port, Protocol, Flow Duration, Total Fwd Packets, Total Backward Packets, Total Length of Fwd Packets, Total Length of Bwd Packets, Fwd Packet Length Max, Fwd Packet Length Min, Fwd Packet Length Mean, Bwd Packet Length Max, Bwd Packet Length Min, Bwd Packet Length Mean, Flow Bytes/s, Flow Packets/s, Flow IAT Mean, Flow IAT Min, Fwd IAT Mean, Fwd IAT Min, Bwd IAT Total, Bwd IAT Mean, Bwd IAT Std, Bwd IAT Max, Fwd PSH Flags, Bwd PSH Flags, Fwd URG Flags, Bwd URG Flags, Fwd Packets/s, Bwd Packets/s, Min Packet Length, Max Packet Length, Packet Length Variance, FIN Flag Count, SYN Flag Count, RST Flag Count, PSH Flag Count, ACK Flag Count, URG Flag Count, CWE Flag Count, ECE Flag Count, Down/Up Ratio, Average Packet Size, Fwd Header Length.1, Fwd Avg Bytes/Bulk, Fwd Avg Packets/Bulk, Fwd Avg Bulk Rate, Bwd Avg Bytes/Bulk, Bwd Avg Packets/Bulk, Bwd Avg Bulk Rate, Subflow Fwd Bytes, Subflow Bwd Bytes, Init_Win_bytes_forward, Init_Win_bytes_backward, act_data_pkt_fwd, min_seg_size_forward, Active Mean, Active Std, Active Max, Idle Mean, Idle Std, Idle Max
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Features being used: Source Port, Destination Port, Protocol, Flow Duration, Total Fwd Packets, Total Backward Packets, Total Length of Fwd Packets, Total Length of Bwd Packets, Fwd Packet Length Max, Fwd Packet Length Min, Fwd Packet Length Mean, Bwd Packet Length Max, Bwd Packet Length Min, Bwd Packet Length Mean, Flow Bytes/s, Flow Packets/s, Flow IAT Mean, Flow IAT Min, Fwd IAT Mean, Fwd IAT Min, Bwd IAT Total, Bwd IAT Mean, Bwd IAT Std, Bwd IAT Max, Fwd PSH Flags, Bwd PSH Flags, Fwd URG Flags, Bwd URG Flags, Fwd Packets/s, Bwd Packets/s, Min Packet Length, Max Packet Length, Packet Length Variance, FIN Flag Count, SYN Flag Count, RST Flag Count, PSH Flag Count, ACK Flag Count, URG Flag Count, CWE Flag Count, ECE Flag Count, Down/Up Ratio, Average Packet Size, Fwd Header Length.1, Fwd Avg Bytes/Bulk, Fwd Avg Packets/Bulk, Fwd Avg Bulk Rate, Bwd Avg Bytes/Bulk, Bwd Avg Packets/Bulk, Bwd Avg Bulk Rate, Subflow Fwd Bytes, Subflow Bwd Bytes, Init_Win_bytes_forward, Init_Win_bytes_backward, act_data_pkt_fwd, min_seg_size_forward, Active Mean, Active Std, Active Max, Idle Mean, Idle Std, Idle Max
+2025-02-24 12:20:36,016 - DDosDetection - INFO - Features being used: Source Port, Destination Port, Protocol, Flow Duration, Total Fwd Packets, Total Backward Packets, Total Length of Fwd Packets, Total Length of Bwd Packets, Fwd Packet Length Max, Fwd Packet Length Min, Fwd Packet Length Mean, Bwd Packet Length Max, Bwd Packet Length Min, Bwd Packet Length Mean, Flow Bytes/s, Flow Packets/s, Flow IAT Mean, Flow IAT Min, Fwd IAT Mean, Fwd IAT Min, Bwd IAT Total, Bwd IAT Mean, Bwd IAT Std, Bwd IAT Max, Fwd PSH Flags, Bwd PSH Flags, Fwd URG Flags, Bwd URG Flags, Fwd Packets/s, Bwd Packets/s, Min Packet Length, Max Packet Length, Packet Length Variance, FIN Flag Count, SYN Flag Count, RST Flag Count, PSH Flag Count, ACK Flag Count, URG Flag Count, CWE Flag Count, ECE Flag Count, Down/Up Ratio, Average Packet Size, Fwd Header Length.1, Fwd Avg Bytes/Bulk, Fwd Avg Packets/Bulk, Fwd Avg Bulk Rate, Bwd Avg Bytes/Bulk, Bwd Avg Packets/Bulk, Bwd Avg Bulk Rate, Subflow Fwd Bytes, Subflow Bwd Bytes, Init_Win_bytes_forward, Init_Win_bytes_backward, act_data_pkt_fwd, min_seg_size_forward, Active Mean, Active Std, Active Max, Idle Mean, Idle Std, Idle Max
+2025-02-24 12:20:36,158 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-24 12:20:36,158 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-24 12:20:36,158 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-24 12:20:36,158 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-24 12:20:36,158 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-24 12:20:36,158 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-24 12:20:36,158 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-24 12:20:36,158 - DDosDetection - INFO - 
+Hold-out Test Set Performance:
+2025-02-24 12:20:36,160 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-24 12:20:36,160 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-24 12:20:36,160 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-24 12:20:36,160 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-24 12:20:36,160 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-24 12:20:36,160 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-24 12:20:36,160 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-24 12:20:36,160 - DDosDetection - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      9772
+           1       1.00      1.00      1.00     12803
+
+    accuracy                           1.00     22575
+   macro avg       1.00      1.00      1.00     22575
+weighted avg       1.00      1.00      1.00     22575
+
+2025-02-24 12:20:36,162 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-24 12:20:36,162 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-24 12:20:36,162 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-24 12:20:36,162 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-24 12:20:36,162 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-24 12:20:36,162 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-24 12:20:36,162 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000
+2025-02-24 12:20:36,162 - DDosDetection - INFO - 
+ROC-AUC Score: 1.0000

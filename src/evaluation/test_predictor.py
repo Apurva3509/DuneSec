@@ -18,14 +18,43 @@ class TestPredictor:
         # Load preprocessors
         self.load_preprocessors()
         
-        # Load model using joblib instead of mlflow
+        # Define correlated feature pairs (same as in DataPreprocessor)
+        self.correlated_feature_pairs = [
+            ("Active Max", "Active Min"),
+            ("Average Packet Size", "Packet Length Mean"),
+            ("Avg Bwd Segment Size", "Avg Fwd Segment Size"),
+            ("Bwd Header Length", "Fwd Header Length"),
+            ("Bwd IAT Max", "Bwd IAT Min"),
+            ("Bwd Packet Length Mean", "Bwd Packet Length Std"),
+            ("Flow IAT Max", "Flow IAT Std"),
+            ("Fwd IAT Max", "Fwd IAT Total"),
+            ("Fwd IAT Mean", "Fwd IAT Std"),
+            ("Fwd Packet Length Mean", "Fwd Packet Length Std"),
+            ("Idle Max", "Idle Min"),
+            ("Subflow Bwd Packets", "Subflow Fwd Packets")
+        ]
+        
+        # Get features to drop
+        self.features_to_drop = set()
+        for feature1, feature2 in self.correlated_feature_pairs:
+            self.features_to_drop.add(feature2)
+        
+        # Update numeric features list
+        self.numeric_features = [f for f in self.config['features']['numeric_features'] 
+                               if f not in self.features_to_drop]
+        
+        # Load model
         self.model = joblib.load("models/model.joblib")
         
     def load_preprocessors(self):
         """Load saved preprocessors."""
-        preprocessors_path = Path("models/preprocessors")
-        self.scaler = joblib.load(preprocessors_path / "scaler.joblib")
-        self.target_encoder = joblib.load(preprocessors_path / "target_encoder.joblib")
+        try:
+            preprocessors_path = Path("models/preprocessors")
+            self.scaler = joblib.load(preprocessors_path / "scaler.joblib")
+            self.target_encoder = joblib.load(preprocessors_path / "target_encoder.joblib")
+        except Exception as e:
+            logger.error(f"Error loading preprocessors: {str(e)}")
+            raise
     
     def predict_holdout_set(self):
         """
@@ -35,9 +64,15 @@ class TestPredictor:
             # Load hold-out test set
             test_data = pd.read_csv("data/test/holdout_test_data.csv")
             
-            # Separate features and target
-            X_test = test_data[self.config['features']['numeric_features']]
+            # Drop the correlated features first
+            test_data = test_data.drop(columns=self.features_to_drop, errors='ignore')
+            
+            # Ensure we only use the features that were used in training
+            X_test = test_data[self.numeric_features]
             y_test = test_data[self.config['features']['target']]
+            
+            logger.info(f"Number of features in test set: {X_test.shape[1]}")
+            logger.info(f"Features being used: {', '.join(self.numeric_features)}")
             
             # Preprocess features
             X_test_scaled = self.scaler.transform(X_test)
