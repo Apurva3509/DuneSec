@@ -245,6 +245,7 @@ pip install -r requirements.txt
 ├── ai_engineer_assignment.pdf
 ├── main.py
 └── requirements.txt
+```
 ```bash
 # Create necessary directories
 mkdir -p data/raw
