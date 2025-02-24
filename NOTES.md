@@ -60,33 +60,33 @@ To achieve minimal data processing we can choose Random Forest and XGBoost as tr
 
 Logistic Regression and MLP are also reasonably good but they don't scale well and are also prone to overfitting easily.
 
-1. Preelimnary modelling
+1. Pre-limnary modelling:
 We have implemented a pipeline for data preprocessing, model training and evaluation. We will use GridSearchCV to find the best hyperparameters for all the models and choose 1 to run the pipeline(here Random Forest is chosen).
 
 2. Metrics:
 Given the updated class distribution (56.71% DDoS, 43.29% BENIGN), F1-score is a better metric than accuracy for this case:
 
 However, in security contexts, false negatives (missing attacks) are more costly than false positives
-Why F1-Score is Better Here
-F1-score is the harmonic mean of precision and recall
-It helps balance:
-Precision: Avoiding false DDoS alerts
-Recall: Not missing actual DDoS attacks
-Particularly important because:
-False Positives = Unnecessary system shutdowns/alerts
-False Negatives = Missed attacks (very costly)
+- F1-score is the harmonic mean of precision and recall and it helps balance:
+    - Precision: Avoiding false DDoS alerts
+    - Recall: Not missing actual DDoS attacks
 
-Business Impact
-F1-score better reflects the business cost of errors
-Helps optimize the model for both:
-Minimizing false alarms
-Maximizing attack detection
-More suitable for security applications
-Model Tuning
-F1-score helps tune the classification threshold
-Balances the trade-off between precision and recall
-More informative for model selection and optimization
-Therefore, while accuracy is good for general performance understanding, F1-score provides a more nuanced and appropriate metric for this security application.
+- Particularly important because:
+    - False Positives = Unnecessary system shutdowns/alerts
+    - False Negatives = Missed attacks (very costly)
+
+## Business Impact
+- F1-score better reflects the business cost of errors
+- Helps optimize the model for both:
+    - Minimizing false alarms
+    - Maximizing attack detection
+- More suitable for security applications
+- Model Tuning
+    - F1-score helps tune the classification threshold
+    - Balances the trade-off between precision and recall
+    - More informative for model selection and optimization
+
+Therefore, while accuracy is good for general performance understanding, F1-score provides a more nuanced and appropriate metric for this security application and finding anomalies.
 
 
 # Results and Evaluation
