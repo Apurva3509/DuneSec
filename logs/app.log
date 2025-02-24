@@ -1672,3 +1672,1071 @@ ROC-AUC Score: 1.0000
 ROC-AUC Score: 1.0000
 2025-02-24 13:03:45,405 - DDosDetection - INFO - 
 ROC-AUC Score: 1.0000
+2025-02-24 13:09:59,245 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:09:59,245 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:09:59,245 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:09:59,245 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:09:59,245 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:09:59,245 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:09:59,245 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:09:59,245 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:10:05,272 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:10:05,272 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:10:05,272 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:10:05,272 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:10:05,272 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:10:05,272 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:10:05,272 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:10:05,272 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:10:41,063 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:10:41,063 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:10:41,063 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:10:41,063 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:10:41,063 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:10:41,063 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:10:41,063 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:10:41,063 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:10:42,238 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:10:42,238 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:10:42,238 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:10:42,238 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:10:42,238 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:10:42,238 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:10:42,238 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:10:42,238 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:10:43,179 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 31)
+2025-02-24 13:10:43,179 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 31)
+2025-02-24 13:10:43,179 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 31)
+2025-02-24 13:10:43,179 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 31)
+2025-02-24 13:10:43,179 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 31)
+2025-02-24 13:10:43,179 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 31)
+2025-02-24 13:10:43,179 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 31)
+2025-02-24 13:10:43,179 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 31)
+2025-02-24 13:10:43,183 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:10:43,183 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:10:43,183 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:10:43,183 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:10:43,183 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:10:43,183 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:10:43,183 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:10:43,183 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:10:43,195 - DDosDetection - INFO - Starting model training with GridSearchCV...
+2025-02-24 13:10:43,195 - DDosDetection - INFO - Starting model training with GridSearchCV...
+2025-02-24 13:10:43,195 - DDosDetection - INFO - Starting model training with GridSearchCV...
+2025-02-24 13:10:43,195 - DDosDetection - INFO - Starting model training with GridSearchCV...
+2025-02-24 13:10:43,195 - DDosDetection - INFO - Starting model training with GridSearchCV...
+2025-02-24 13:10:43,195 - DDosDetection - INFO - Starting model training with GridSearchCV...
+2025-02-24 13:10:43,195 - DDosDetection - INFO - Starting model training with GridSearchCV...
+2025-02-24 13:10:43,195 - DDosDetection - INFO - Starting model training with GridSearchCV...
+2025-02-24 13:33:35,306 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:33:35,306 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:33:35,306 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:33:35,306 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:33:35,306 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:33:35,306 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:33:35,306 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:33:35,306 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:33:58,803 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:33:58,803 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:33:58,803 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:33:58,803 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:33:58,803 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:33:58,803 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:33:58,803 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:33:58,803 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:38:50,125 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:38:50,125 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:38:50,125 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:38:50,125 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 13:39:22,306 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:39:22,306 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:39:22,306 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:39:22,306 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 13:39:47,685 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:39:47,685 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:39:47,685 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:39:47,685 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:39:55,305 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:39:55,305 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:39:55,305 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:39:55,305 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:39:58,547 - DDosDetection - ERROR - Error in data preprocessing: single positional indexer is out-of-bounds
+2025-02-24 13:39:58,547 - DDosDetection - ERROR - Error in data preprocessing: single positional indexer is out-of-bounds
+2025-02-24 13:39:58,547 - DDosDetection - ERROR - Error in data preprocessing: single positional indexer is out-of-bounds
+2025-02-24 13:39:58,547 - DDosDetection - ERROR - Error in data preprocessing: single positional indexer is out-of-bounds
+2025-02-24 13:39:58,554 - DDosDetection - ERROR - Error in main execution: single positional indexer is out-of-bounds
+2025-02-24 13:39:58,554 - DDosDetection - ERROR - Error in main execution: single positional indexer is out-of-bounds
+2025-02-24 13:39:58,554 - DDosDetection - ERROR - Error in main execution: single positional indexer is out-of-bounds
+2025-02-24 13:39:58,554 - DDosDetection - ERROR - Error in main execution: single positional indexer is out-of-bounds
+2025-02-24 13:41:13,255 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:41:13,255 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:41:13,255 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:41:13,255 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:41:20,406 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:41:20,406 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:41:20,406 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:41:20,406 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:41:22,340 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:41:22,340 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:41:22,340 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:41:22,340 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:41:22,341 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:41:22,341 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:41:22,341 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:41:22,341 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:41:22,352 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:41:22,352 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:41:22,352 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:41:22,352 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:41:22,353 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:41:22,353 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:41:22,353 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:41:22,353 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:41:22,353 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:41:22,353 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:41:22,353 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:41:22,353 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:50:51,002 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:50:51,002 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:50:51,002 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:50:51,002 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:50:57,852 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:50:57,852 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:50:57,852 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:50:57,852 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:50:59,421 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:50:59,421 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:50:59,421 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:50:59,421 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:50:59,422 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:50:59,422 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:50:59,422 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:50:59,422 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:50:59,535 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:50:59,535 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:50:59,535 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:50:59,535 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:50:59,536 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:50:59,536 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:50:59,536 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:50:59,536 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:50:59,537 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:50:59,537 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:50:59,537 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:50:59,537 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:52:40,034 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:52:40,034 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:52:40,034 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:52:40,034 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:52:42,508 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:52:42,508 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:52:42,508 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:52:42,508 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:52:43,487 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:52:43,487 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:52:43,487 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:52:43,487 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:52:43,490 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:52:43,490 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:52:43,490 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:52:43,490 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:52:43,512 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:52:43,512 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:52:43,512 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:52:43,512 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:52:43,512 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:52:43,512 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:52:43,512 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:52:43,512 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:52:43,513 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:52:43,513 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:52:43,513 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:52:43,513 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:54:09,771 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:54:09,771 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:54:09,771 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:54:09,771 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:54:12,207 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:54:12,207 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:54:12,207 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:54:12,207 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:54:13,030 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:54:13,030 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:54:13,030 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:54:13,030 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:54:13,031 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:54:13,031 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:54:13,031 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:54:13,031 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:54:13,058 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:54:13,058 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:54:13,058 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:54:13,058 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:54:13,062 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:54:13,062 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:54:13,062 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:54:13,062 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:54:13,063 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:54:13,063 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:54:13,063 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:54:13,063 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:56:02,211 - DDosDetection - INFO - 
+Training completed in 108.75 seconds
+2025-02-24 13:56:02,211 - DDosDetection - INFO - 
+Training completed in 108.75 seconds
+2025-02-24 13:56:02,211 - DDosDetection - INFO - 
+Training completed in 108.75 seconds
+2025-02-24 13:56:02,211 - DDosDetection - INFO - 
+Training completed in 108.75 seconds
+2025-02-24 13:56:02,213 - DDosDetection - INFO - Best parameters found: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+2025-02-24 13:56:02,213 - DDosDetection - INFO - Best parameters found: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+2025-02-24 13:56:02,213 - DDosDetection - INFO - Best parameters found: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+2025-02-24 13:56:02,213 - DDosDetection - INFO - Best parameters found: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+2025-02-24 13:56:02,213 - DDosDetection - INFO - Best cross-validation score: 0.9999
+2025-02-24 13:56:02,213 - DDosDetection - INFO - Best cross-validation score: 0.9999
+2025-02-24 13:56:02,213 - DDosDetection - INFO - Best cross-validation score: 0.9999
+2025-02-24 13:56:02,213 - DDosDetection - INFO - Best cross-validation score: 0.9999
+2025-02-24 13:56:02,228 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 13:56:02,228 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 13:56:02,228 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 13:56:02,228 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 13:56:02,228 - DDosDetection - INFO -                         feature  importance
+1              Destination Port    0.159079
+8         Fwd Packet Length Max    0.085899
+10       Fwd Packet Length Mean    0.082217
+58       Init_Win_bytes_forward    0.077056
+55            Subflow Fwd Bytes    0.056793
+20                  Fwd IAT Max    0.051693
+6   Total Length of Fwd Packets    0.047181
+12        Bwd Packet Length Min    0.043059
+48          Fwd Header Length.1    0.040800
+60             act_data_pkt_fwd    0.040041
+2025-02-24 13:56:02,228 - DDosDetection - INFO -                         feature  importance
+1              Destination Port    0.159079
+8         Fwd Packet Length Max    0.085899
+10       Fwd Packet Length Mean    0.082217
+58       Init_Win_bytes_forward    0.077056
+55            Subflow Fwd Bytes    0.056793
+20                  Fwd IAT Max    0.051693
+6   Total Length of Fwd Packets    0.047181
+12        Bwd Packet Length Min    0.043059
+48          Fwd Header Length.1    0.040800
+60             act_data_pkt_fwd    0.040041
+2025-02-24 13:56:02,228 - DDosDetection - INFO -                         feature  importance
+1              Destination Port    0.159079
+8         Fwd Packet Length Max    0.085899
+10       Fwd Packet Length Mean    0.082217
+58       Init_Win_bytes_forward    0.077056
+55            Subflow Fwd Bytes    0.056793
+20                  Fwd IAT Max    0.051693
+6   Total Length of Fwd Packets    0.047181
+12        Bwd Packet Length Min    0.043059
+48          Fwd Header Length.1    0.040800
+60             act_data_pkt_fwd    0.040041
+2025-02-24 13:56:02,228 - DDosDetection - INFO -                         feature  importance
+1              Destination Port    0.159079
+8         Fwd Packet Length Max    0.085899
+10       Fwd Packet Length Mean    0.082217
+58       Init_Win_bytes_forward    0.077056
+55            Subflow Fwd Bytes    0.056793
+20                  Fwd IAT Max    0.051693
+6   Total Length of Fwd Packets    0.047181
+12        Bwd Packet Length Min    0.043059
+48          Fwd Header Length.1    0.040800
+60             act_data_pkt_fwd    0.040041
+2025-02-24 13:56:05,380 - DDosDetection - INFO - Evaluation plots saved in reports/figures/
+2025-02-24 13:56:05,380 - DDosDetection - INFO - Evaluation plots saved in reports/figures/
+2025-02-24 13:56:05,380 - DDosDetection - INFO - Evaluation plots saved in reports/figures/
+2025-02-24 13:56:05,380 - DDosDetection - INFO - Evaluation plots saved in reports/figures/
+2025-02-24 13:56:05,380 - DDosDetection - INFO - Training ROC-AUC Score: 1.0000
+2025-02-24 13:56:05,380 - DDosDetection - INFO - Training ROC-AUC Score: 1.0000
+2025-02-24 13:56:05,380 - DDosDetection - INFO - Training ROC-AUC Score: 1.0000
+2025-02-24 13:56:05,380 - DDosDetection - INFO - Training ROC-AUC Score: 1.0000
+2025-02-24 13:56:26,829 - DDosDetection - ERROR - Error in data transformation: could not convert string to float: 'BENIGN'
+2025-02-24 13:56:26,829 - DDosDetection - ERROR - Error in data transformation: could not convert string to float: 'BENIGN'
+2025-02-24 13:56:26,829 - DDosDetection - ERROR - Error in data transformation: could not convert string to float: 'BENIGN'
+2025-02-24 13:56:26,829 - DDosDetection - ERROR - Error in data transformation: could not convert string to float: 'BENIGN'
+2025-02-24 13:56:26,830 - DDosDetection - ERROR - Error in main execution: could not convert string to float: 'BENIGN'
+2025-02-24 13:56:26,830 - DDosDetection - ERROR - Error in main execution: could not convert string to float: 'BENIGN'
+2025-02-24 13:56:26,830 - DDosDetection - ERROR - Error in main execution: could not convert string to float: 'BENIGN'
+2025-02-24 13:56:26,830 - DDosDetection - ERROR - Error in main execution: could not convert string to float: 'BENIGN'
+2025-02-24 13:57:00,587 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:57:00,587 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:57:00,587 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:57:00,587 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:57:03,011 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:57:03,011 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:57:03,011 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:57:03,011 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:57:03,840 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:57:03,840 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:57:03,840 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:57:03,840 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:57:03,845 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:57:03,845 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:57:03,845 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:57:03,845 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:57:03,868 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:57:03,868 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:57:03,868 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:57:03,868 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:57:03,868 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 13:57:03,868 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 13:57:03,868 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 13:57:03,868 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 13:57:03,869 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:57:03,869 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:57:03,869 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:57:03,869 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:57:03,872 - DDosDetection - ERROR - Error in model training: can't multiply sequence by non-int of type 'list'
+2025-02-24 13:57:03,872 - DDosDetection - ERROR - Error in model training: can't multiply sequence by non-int of type 'list'
+2025-02-24 13:57:03,872 - DDosDetection - ERROR - Error in model training: can't multiply sequence by non-int of type 'list'
+2025-02-24 13:57:03,872 - DDosDetection - ERROR - Error in model training: can't multiply sequence by non-int of type 'list'
+2025-02-24 13:57:03,872 - DDosDetection - ERROR - Error in main execution: can't multiply sequence by non-int of type 'list'
+2025-02-24 13:57:03,872 - DDosDetection - ERROR - Error in main execution: can't multiply sequence by non-int of type 'list'
+2025-02-24 13:57:03,872 - DDosDetection - ERROR - Error in main execution: can't multiply sequence by non-int of type 'list'
+2025-02-24 13:57:03,872 - DDosDetection - ERROR - Error in main execution: can't multiply sequence by non-int of type 'list'
+2025-02-24 13:57:36,463 - DDosDetection - ERROR - Error in data transformation: could not convert string to float: 'BENIGN'
+2025-02-24 13:57:36,463 - DDosDetection - ERROR - Error in data transformation: could not convert string to float: 'BENIGN'
+2025-02-24 13:57:36,463 - DDosDetection - ERROR - Error in data transformation: could not convert string to float: 'BENIGN'
+2025-02-24 13:57:36,463 - DDosDetection - ERROR - Error in data transformation: could not convert string to float: 'BENIGN'
+2025-02-24 13:57:36,464 - DDosDetection - ERROR - Error in main execution: could not convert string to float: 'BENIGN'
+2025-02-24 13:57:36,464 - DDosDetection - ERROR - Error in main execution: could not convert string to float: 'BENIGN'
+2025-02-24 13:57:36,464 - DDosDetection - ERROR - Error in main execution: could not convert string to float: 'BENIGN'
+2025-02-24 13:57:36,464 - DDosDetection - ERROR - Error in main execution: could not convert string to float: 'BENIGN'
+2025-02-24 13:59:11,604 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:59:11,604 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:59:11,604 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:59:11,604 - DDosDetection - INFO - Loading training data...
+2025-02-24 13:59:14,073 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:59:14,073 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:59:14,073 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:59:14,073 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 13:59:14,775 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:59:14,775 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:59:14,775 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:59:14,775 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 13:59:14,776 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:59:14,776 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:59:14,776 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:59:14,776 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 13:59:14,783 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:59:14,783 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:59:14,783 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:59:14,783 - DDosDetection - INFO - Starting model training...
+2025-02-24 13:59:14,783 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:59:14,783 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:59:14,783 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:59:14,783 - DDosDetection - INFO - Starting Random Forest training with GridSearchCV...
+2025-02-24 13:59:14,784 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:59:14,784 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:59:14,784 - DDosDetection - INFO - Training with 68 features
+2025-02-24 13:59:14,784 - DDosDetection - INFO - Training with 68 features
+2025-02-24 14:00:39,589 - DDosDetection - INFO - 
+Training completed in 84.77 seconds
+2025-02-24 14:00:39,589 - DDosDetection - INFO - 
+Training completed in 84.77 seconds
+2025-02-24 14:00:39,589 - DDosDetection - INFO - 
+Training completed in 84.77 seconds
+2025-02-24 14:00:39,589 - DDosDetection - INFO - 
+Training completed in 84.77 seconds
+2025-02-24 14:00:39,590 - DDosDetection - INFO - Best parameters found: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+2025-02-24 14:00:39,590 - DDosDetection - INFO - Best parameters found: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+2025-02-24 14:00:39,590 - DDosDetection - INFO - Best parameters found: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+2025-02-24 14:00:39,590 - DDosDetection - INFO - Best parameters found: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+2025-02-24 14:00:39,590 - DDosDetection - INFO - Best cross-validation score: 0.9999
+2025-02-24 14:00:39,590 - DDosDetection - INFO - Best cross-validation score: 0.9999
+2025-02-24 14:00:39,590 - DDosDetection - INFO - Best cross-validation score: 0.9999
+2025-02-24 14:00:39,590 - DDosDetection - INFO - Best cross-validation score: 0.9999
+2025-02-24 14:00:39,599 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:00:39,599 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:00:39,599 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:00:39,599 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:00:39,599 - DDosDetection - INFO -                         feature  importance
+1              Destination Port    0.159079
+8         Fwd Packet Length Max    0.085899
+10       Fwd Packet Length Mean    0.082217
+58       Init_Win_bytes_forward    0.077056
+55            Subflow Fwd Bytes    0.056793
+20                  Fwd IAT Max    0.051693
+6   Total Length of Fwd Packets    0.047181
+12        Bwd Packet Length Min    0.043059
+48          Fwd Header Length.1    0.040800
+60             act_data_pkt_fwd    0.040041
+2025-02-24 14:00:39,599 - DDosDetection - INFO -                         feature  importance
+1              Destination Port    0.159079
+8         Fwd Packet Length Max    0.085899
+10       Fwd Packet Length Mean    0.082217
+58       Init_Win_bytes_forward    0.077056
+55            Subflow Fwd Bytes    0.056793
+20                  Fwd IAT Max    0.051693
+6   Total Length of Fwd Packets    0.047181
+12        Bwd Packet Length Min    0.043059
+48          Fwd Header Length.1    0.040800
+60             act_data_pkt_fwd    0.040041
+2025-02-24 14:00:39,599 - DDosDetection - INFO -                         feature  importance
+1              Destination Port    0.159079
+8         Fwd Packet Length Max    0.085899
+10       Fwd Packet Length Mean    0.082217
+58       Init_Win_bytes_forward    0.077056
+55            Subflow Fwd Bytes    0.056793
+20                  Fwd IAT Max    0.051693
+6   Total Length of Fwd Packets    0.047181
+12        Bwd Packet Length Min    0.043059
+48          Fwd Header Length.1    0.040800
+60             act_data_pkt_fwd    0.040041
+2025-02-24 14:00:39,599 - DDosDetection - INFO -                         feature  importance
+1              Destination Port    0.159079
+8         Fwd Packet Length Max    0.085899
+10       Fwd Packet Length Mean    0.082217
+58       Init_Win_bytes_forward    0.077056
+55            Subflow Fwd Bytes    0.056793
+20                  Fwd IAT Max    0.051693
+6   Total Length of Fwd Packets    0.047181
+12        Bwd Packet Length Min    0.043059
+48          Fwd Header Length.1    0.040800
+60             act_data_pkt_fwd    0.040041
+2025-02-24 14:00:41,395 - DDosDetection - INFO - Evaluation plots saved in reports/figures/
+2025-02-24 14:00:41,395 - DDosDetection - INFO - Evaluation plots saved in reports/figures/
+2025-02-24 14:00:41,395 - DDosDetection - INFO - Evaluation plots saved in reports/figures/
+2025-02-24 14:00:41,395 - DDosDetection - INFO - Evaluation plots saved in reports/figures/
+2025-02-24 14:00:41,395 - DDosDetection - INFO - Training ROC-AUC Score: 1.0000
+2025-02-24 14:00:41,395 - DDosDetection - INFO - Training ROC-AUC Score: 1.0000
+2025-02-24 14:00:41,395 - DDosDetection - INFO - Training ROC-AUC Score: 1.0000
+2025-02-24 14:00:41,395 - DDosDetection - INFO - Training ROC-AUC Score: 1.0000
+2025-02-24 14:01:10,632 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:01:10,632 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:01:10,632 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:01:10,632 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:01:10,789 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:01:10,789 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:01:10,789 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:01:10,789 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:01:10,834 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:01:10,834 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:01:10,834 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:01:10,834 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:01:11,450 - DDosDetection - INFO - Evaluation plots saved in reports/figures/
+2025-02-24 14:01:11,450 - DDosDetection - INFO - Evaluation plots saved in reports/figures/
+2025-02-24 14:01:11,450 - DDosDetection - INFO - Evaluation plots saved in reports/figures/
+2025-02-24 14:01:11,450 - DDosDetection - INFO - Evaluation plots saved in reports/figures/
+2025-02-24 14:01:11,451 - DDosDetection - INFO - Training ROC-AUC Score: 1.0000
+2025-02-24 14:01:11,451 - DDosDetection - INFO - Training ROC-AUC Score: 1.0000
+2025-02-24 14:01:11,451 - DDosDetection - INFO - Training ROC-AUC Score: 1.0000
+2025-02-24 14:01:11,451 - DDosDetection - INFO - Training ROC-AUC Score: 1.0000
+2025-02-24 14:01:11,451 - DDosDetection - INFO - Test metrics: {'roc_auc': 1.0, 'train_report': '              precision    recall  f1-score   support\n\n           0       0.44      1.00      0.61      9786\n           1       1.00      0.01      0.03     12788\n\n    accuracy                           0.44     22574\n   macro avg       0.72      0.51      0.32     22574\nweighted avg       0.76      0.44      0.28     22574\n'}
+2025-02-24 14:01:11,451 - DDosDetection - INFO - Test metrics: {'roc_auc': 1.0, 'train_report': '              precision    recall  f1-score   support\n\n           0       0.44      1.00      0.61      9786\n           1       1.00      0.01      0.03     12788\n\n    accuracy                           0.44     22574\n   macro avg       0.72      0.51      0.32     22574\nweighted avg       0.76      0.44      0.28     22574\n'}
+2025-02-24 14:01:11,451 - DDosDetection - INFO - Test metrics: {'roc_auc': 1.0, 'train_report': '              precision    recall  f1-score   support\n\n           0       0.44      1.00      0.61      9786\n           1       1.00      0.01      0.03     12788\n\n    accuracy                           0.44     22574\n   macro avg       0.72      0.51      0.32     22574\nweighted avg       0.76      0.44      0.28     22574\n'}
+2025-02-24 14:01:11,451 - DDosDetection - INFO - Test metrics: {'roc_auc': 1.0, 'train_report': '              precision    recall  f1-score   support\n\n           0       0.44      1.00      0.61      9786\n           1       1.00      0.01      0.03     12788\n\n    accuracy                           0.44     22574\n   macro avg       0.72      0.51      0.32     22574\nweighted avg       0.76      0.44      0.28     22574\n'}
+2025-02-24 14:02:52,570 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:02:52,570 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:02:52,570 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:02:52,570 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:02:52,720 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:02:52,720 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:02:52,720 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:02:52,720 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:02:52,768 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:02:52,768 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:02:52,768 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:02:52,768 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:02:53,392 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_140252.json
+2025-02-24 14:02:53,392 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_140252.json
+2025-02-24 14:02:53,392 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_140252.json
+2025-02-24 14:02:53,392 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_140252.json
+2025-02-24 14:02:53,393 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:02:53,393 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:02:53,393 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:02:53,393 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:02:53,393 - DDosDetection - INFO - Test metrics: {'accuracy': 0.4414370514751484, 'roc_auc': 1.0, 'classification_report': '              precision    recall  f1-score   support\n\n           0       0.44      1.00      0.61      9786\n           1       1.00      0.01      0.03     12788\n\n    accuracy                           0.44     22574\n   macro avg       0.72      0.51      0.32     22574\nweighted avg       0.76      0.44      0.28     22574\n'}
+2025-02-24 14:02:53,393 - DDosDetection - INFO - Test metrics: {'accuracy': 0.4414370514751484, 'roc_auc': 1.0, 'classification_report': '              precision    recall  f1-score   support\n\n           0       0.44      1.00      0.61      9786\n           1       1.00      0.01      0.03     12788\n\n    accuracy                           0.44     22574\n   macro avg       0.72      0.51      0.32     22574\nweighted avg       0.76      0.44      0.28     22574\n'}
+2025-02-24 14:02:53,393 - DDosDetection - INFO - Test metrics: {'accuracy': 0.4414370514751484, 'roc_auc': 1.0, 'classification_report': '              precision    recall  f1-score   support\n\n           0       0.44      1.00      0.61      9786\n           1       1.00      0.01      0.03     12788\n\n    accuracy                           0.44     22574\n   macro avg       0.72      0.51      0.32     22574\nweighted avg       0.76      0.44      0.28     22574\n'}
+2025-02-24 14:02:53,393 - DDosDetection - INFO - Test metrics: {'accuracy': 0.4414370514751484, 'roc_auc': 1.0, 'classification_report': '              precision    recall  f1-score   support\n\n           0       0.44      1.00      0.61      9786\n           1       1.00      0.01      0.03     12788\n\n    accuracy                           0.44     22574\n   macro avg       0.72      0.51      0.32     22574\nweighted avg       0.76      0.44      0.28     22574\n'}
+2025-02-24 14:05:21,198 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 14:05:21,198 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 14:05:21,198 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 14:05:21,198 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 14:05:27,316 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 14:05:27,316 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 14:05:27,316 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 14:05:27,316 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 14:05:36,688 - DDosDetection - INFO - Loading training data...
+2025-02-24 14:05:36,688 - DDosDetection - INFO - Loading training data...
+2025-02-24 14:05:36,688 - DDosDetection - INFO - Loading training data...
+2025-02-24 14:05:36,688 - DDosDetection - INFO - Loading training data...
+2025-02-24 14:05:37,822 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 14:05:37,822 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 14:05:37,822 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 14:05:37,822 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 14:05:38,328 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 14:05:38,328 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 14:05:38,328 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 14:05:38,328 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 14:05:38,329 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 14:05:38,329 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 14:05:38,329 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 14:05:38,329 - DDosDetection - INFO - Selected features: ['Source Port', 'Destination Port', 'Protocol', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Std', 'Idle Max']
+2025-02-24 14:05:38,334 - DDosDetection - INFO - Starting model training...
+2025-02-24 14:05:38,334 - DDosDetection - INFO - Starting model training...
+2025-02-24 14:05:38,334 - DDosDetection - INFO - Starting model training...
+2025-02-24 14:05:38,334 - DDosDetection - INFO - Starting model training...
+2025-02-24 14:05:38,334 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:05:38,334 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:05:38,334 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:05:38,334 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:05:38,335 - DDosDetection - INFO - Training with 68 features
+2025-02-24 14:05:38,335 - DDosDetection - INFO - Training with 68 features
+2025-02-24 14:05:38,335 - DDosDetection - INFO - Training with 68 features
+2025-02-24 14:05:38,335 - DDosDetection - INFO - Training with 68 features
+2025-02-24 14:10:32,405 - DDosDetection - INFO - 
+Training completed in 294.05 seconds
+2025-02-24 14:10:32,405 - DDosDetection - INFO - 
+Training completed in 294.05 seconds
+2025-02-24 14:10:32,405 - DDosDetection - INFO - 
+Training completed in 294.05 seconds
+2025-02-24 14:10:32,405 - DDosDetection - INFO - 
+Training completed in 294.05 seconds
+2025-02-24 14:10:32,408 - DDosDetection - INFO - Best parameters found: {'class_weight': 'balanced', 'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}
+2025-02-24 14:10:32,408 - DDosDetection - INFO - Best parameters found: {'class_weight': 'balanced', 'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}
+2025-02-24 14:10:32,408 - DDosDetection - INFO - Best parameters found: {'class_weight': 'balanced', 'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}
+2025-02-24 14:10:32,408 - DDosDetection - INFO - Best parameters found: {'class_weight': 'balanced', 'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}
+2025-02-24 14:10:32,408 - DDosDetection - INFO - Best cross-validation F1 score: 0.9999
+2025-02-24 14:10:32,408 - DDosDetection - INFO - Best cross-validation F1 score: 0.9999
+2025-02-24 14:10:32,408 - DDosDetection - INFO - Best cross-validation F1 score: 0.9999
+2025-02-24 14:10:32,408 - DDosDetection - INFO - Best cross-validation F1 score: 0.9999
+2025-02-24 14:10:32,416 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:10:32,416 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:10:32,416 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:10:32,416 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:10:32,417 - DDosDetection - INFO - Destination Port: 0.1363
+2025-02-24 14:10:32,417 - DDosDetection - INFO - Destination Port: 0.1363
+2025-02-24 14:10:32,417 - DDosDetection - INFO - Destination Port: 0.1363
+2025-02-24 14:10:32,417 - DDosDetection - INFO - Destination Port: 0.1363
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Fwd Packet Length Max: 0.1260
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Fwd Packet Length Max: 0.1260
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Fwd Packet Length Max: 0.1260
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Fwd Packet Length Max: 0.1260
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Init_Win_bytes_forward: 0.0745
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Init_Win_bytes_forward: 0.0745
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Init_Win_bytes_forward: 0.0745
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Init_Win_bytes_forward: 0.0745
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Fwd Packet Length Mean: 0.0605
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Fwd Packet Length Mean: 0.0605
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Fwd Packet Length Mean: 0.0605
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Fwd Packet Length Mean: 0.0605
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Subflow Fwd Bytes: 0.0514
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Subflow Fwd Bytes: 0.0514
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Subflow Fwd Bytes: 0.0514
+2025-02-24 14:10:32,418 - DDosDetection - INFO - Subflow Fwd Bytes: 0.0514
+2025-02-24 14:10:32,419 - DDosDetection - INFO - Fwd IAT Max: 0.0500
+2025-02-24 14:10:32,419 - DDosDetection - INFO - Fwd IAT Max: 0.0500
+2025-02-24 14:10:32,419 - DDosDetection - INFO - Fwd IAT Max: 0.0500
+2025-02-24 14:10:32,419 - DDosDetection - INFO - Fwd IAT Max: 0.0500
+2025-02-24 14:10:32,419 - DDosDetection - INFO - Total Length of Fwd Packets: 0.0489
+2025-02-24 14:10:32,419 - DDosDetection - INFO - Total Length of Fwd Packets: 0.0489
+2025-02-24 14:10:32,419 - DDosDetection - INFO - Total Length of Fwd Packets: 0.0489
+2025-02-24 14:10:32,419 - DDosDetection - INFO - Total Length of Fwd Packets: 0.0489
+2025-02-24 14:10:32,419 - DDosDetection - INFO - act_data_pkt_fwd: 0.0466
+2025-02-24 14:10:32,419 - DDosDetection - INFO - act_data_pkt_fwd: 0.0466
+2025-02-24 14:10:32,419 - DDosDetection - INFO - act_data_pkt_fwd: 0.0466
+2025-02-24 14:10:32,419 - DDosDetection - INFO - act_data_pkt_fwd: 0.0466
+2025-02-24 14:10:32,419 - DDosDetection - INFO - Avg Bwd Segment Size: 0.0416
+2025-02-24 14:10:32,419 - DDosDetection - INFO - Avg Bwd Segment Size: 0.0416
+2025-02-24 14:10:32,419 - DDosDetection - INFO - Avg Bwd Segment Size: 0.0416
+2025-02-24 14:10:32,419 - DDosDetection - INFO - Avg Bwd Segment Size: 0.0416
+2025-02-24 14:10:32,420 - DDosDetection - INFO - Bwd Packet Length Max: 0.0406
+2025-02-24 14:10:32,420 - DDosDetection - INFO - Bwd Packet Length Max: 0.0406
+2025-02-24 14:10:32,420 - DDosDetection - INFO - Bwd Packet Length Max: 0.0406
+2025-02-24 14:10:32,420 - DDosDetection - INFO - Bwd Packet Length Max: 0.0406
+2025-02-24 14:10:33,974 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_141032.json
+2025-02-24 14:10:33,974 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_141032.json
+2025-02-24 14:10:33,974 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_141032.json
+2025-02-24 14:10:33,974 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_141032.json
+2025-02-24 14:10:33,974 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:10:33,974 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:10:33,974 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:10:33,974 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:10:55,615 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:10:55,615 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:10:55,615 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:10:55,615 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:10:55,751 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:10:55,751 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:10:55,751 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:10:55,751 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:10:55,794 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:10:55,794 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:10:55,794 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:10:55,794 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:10:56,388 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_141055.json
+2025-02-24 14:10:56,388 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_141055.json
+2025-02-24 14:10:56,388 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_141055.json
+2025-02-24 14:10:56,388 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_141055.json
+2025-02-24 14:10:56,388 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:10:56,388 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:10:56,388 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:10:56,388 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:10:56,389 - DDosDetection - INFO - Test metrics: {'accuracy': 0.5455834145477098, 'roc_auc': 0.9999999800229126, 'classification_report': '              precision    recall  f1-score   support\n\n           0       0.49      1.00      0.66      9786\n           1       1.00      0.20      0.33     12788\n\n    accuracy                           0.55     22574\n   macro avg       0.74      0.60      0.49     22574\nweighted avg       0.78      0.55      0.47     22574\n'}
+2025-02-24 14:10:56,389 - DDosDetection - INFO - Test metrics: {'accuracy': 0.5455834145477098, 'roc_auc': 0.9999999800229126, 'classification_report': '              precision    recall  f1-score   support\n\n           0       0.49      1.00      0.66      9786\n           1       1.00      0.20      0.33     12788\n\n    accuracy                           0.55     22574\n   macro avg       0.74      0.60      0.49     22574\nweighted avg       0.78      0.55      0.47     22574\n'}
+2025-02-24 14:10:56,389 - DDosDetection - INFO - Test metrics: {'accuracy': 0.5455834145477098, 'roc_auc': 0.9999999800229126, 'classification_report': '              precision    recall  f1-score   support\n\n           0       0.49      1.00      0.66      9786\n           1       1.00      0.20      0.33     12788\n\n    accuracy                           0.55     22574\n   macro avg       0.74      0.60      0.49     22574\nweighted avg       0.78      0.55      0.47     22574\n'}
+2025-02-24 14:10:56,389 - DDosDetection - INFO - Test metrics: {'accuracy': 0.5455834145477098, 'roc_auc': 0.9999999800229126, 'classification_report': '              precision    recall  f1-score   support\n\n           0       0.49      1.00      0.66      9786\n           1       1.00      0.20      0.33     12788\n\n    accuracy                           0.55     22574\n   macro avg       0.74      0.60      0.49     22574\nweighted avg       0.78      0.55      0.47     22574\n'}
+2025-02-24 14:14:42,569 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 14:14:42,569 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 14:14:42,569 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 14:14:42,569 - DDosDetection - INFO - Performing initial 90-10 data split...
+2025-02-24 14:14:48,620 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 14:14:48,620 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 14:14:48,620 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 14:14:48,620 - DDosDetection - INFO - Split completed. Training set size: 203169, Test set size: 22574
+2025-02-24 14:14:59,363 - DDosDetection - INFO - Loading training data...
+2025-02-24 14:14:59,363 - DDosDetection - INFO - Loading training data...
+2025-02-24 14:14:59,363 - DDosDetection - INFO - Loading training data...
+2025-02-24 14:14:59,363 - DDosDetection - INFO - Loading training data...
+2025-02-24 14:15:00,477 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 14:15:00,477 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 14:15:00,477 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 14:15:00,477 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 14:15:00,902 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 14:15:00,902 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 14:15:00,902 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 14:15:00,902 - DDosDetection - INFO - Data preprocessing completed. Features shape: (203169, 68)
+2025-02-24 14:15:00,907 - DDosDetection - INFO - Starting model training...
+2025-02-24 14:15:00,907 - DDosDetection - INFO - Starting model training...
+2025-02-24 14:15:00,907 - DDosDetection - INFO - Starting model training...
+2025-02-24 14:15:00,907 - DDosDetection - INFO - Starting model training...
+2025-02-24 14:15:00,907 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:15:00,907 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:15:00,907 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:15:00,907 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:15:00,908 - DDosDetection - INFO - Training with 68 features
+2025-02-24 14:15:00,908 - DDosDetection - INFO - Training with 68 features
+2025-02-24 14:15:00,908 - DDosDetection - INFO - Training with 68 features
+2025-02-24 14:15:00,908 - DDosDetection - INFO - Training with 68 features
+2025-02-24 14:20:13,438 - DDosDetection - INFO - 
+Training completed in 312.51 seconds
+2025-02-24 14:20:13,438 - DDosDetection - INFO - 
+Training completed in 312.51 seconds
+2025-02-24 14:20:13,438 - DDosDetection - INFO - 
+Training completed in 312.51 seconds
+2025-02-24 14:20:13,438 - DDosDetection - INFO - 
+Training completed in 312.51 seconds
+2025-02-24 14:20:13,440 - DDosDetection - INFO - Best parameters found: {'class_weight': 'balanced', 'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}
+2025-02-24 14:20:13,440 - DDosDetection - INFO - Best parameters found: {'class_weight': 'balanced', 'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}
+2025-02-24 14:20:13,440 - DDosDetection - INFO - Best parameters found: {'class_weight': 'balanced', 'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}
+2025-02-24 14:20:13,440 - DDosDetection - INFO - Best parameters found: {'class_weight': 'balanced', 'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}
+2025-02-24 14:20:13,440 - DDosDetection - INFO - Best cross-validation F1 score: 0.9999
+2025-02-24 14:20:13,440 - DDosDetection - INFO - Best cross-validation F1 score: 0.9999
+2025-02-24 14:20:13,440 - DDosDetection - INFO - Best cross-validation F1 score: 0.9999
+2025-02-24 14:20:13,440 - DDosDetection - INFO - Best cross-validation F1 score: 0.9999
+2025-02-24 14:20:13,447 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:20:13,447 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:20:13,447 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:20:13,447 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Destination Port: 0.1282
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Destination Port: 0.1282
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Destination Port: 0.1282
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Destination Port: 0.1282
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Fwd Packet Length Max: 0.1050
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Fwd Packet Length Max: 0.1050
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Fwd Packet Length Max: 0.1050
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Fwd Packet Length Max: 0.1050
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Init_Win_bytes_forward: 0.0747
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Init_Win_bytes_forward: 0.0747
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Init_Win_bytes_forward: 0.0747
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Init_Win_bytes_forward: 0.0747
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Fwd Packet Length Mean: 0.0684
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Fwd Packet Length Mean: 0.0684
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Fwd Packet Length Mean: 0.0684
+2025-02-24 14:20:13,448 - DDosDetection - INFO - Fwd Packet Length Mean: 0.0684
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Subflow Fwd Bytes: 0.0634
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Subflow Fwd Bytes: 0.0634
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Subflow Fwd Bytes: 0.0634
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Subflow Fwd Bytes: 0.0634
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Fwd IAT Max: 0.0501
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Fwd IAT Max: 0.0501
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Fwd IAT Max: 0.0501
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Fwd IAT Max: 0.0501
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Total Length of Fwd Packets: 0.0456
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Total Length of Fwd Packets: 0.0456
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Total Length of Fwd Packets: 0.0456
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Total Length of Fwd Packets: 0.0456
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Avg Bwd Segment Size: 0.0419
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Avg Bwd Segment Size: 0.0419
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Avg Bwd Segment Size: 0.0419
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Avg Bwd Segment Size: 0.0419
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Bwd Packet Length Max: 0.0411
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Bwd Packet Length Max: 0.0411
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Bwd Packet Length Max: 0.0411
+2025-02-24 14:20:13,449 - DDosDetection - INFO - Bwd Packet Length Max: 0.0411
+2025-02-24 14:20:13,450 - DDosDetection - INFO - Fwd IAT Mean: 0.0381
+2025-02-24 14:20:13,450 - DDosDetection - INFO - Fwd IAT Mean: 0.0381
+2025-02-24 14:20:13,450 - DDosDetection - INFO - Fwd IAT Mean: 0.0381
+2025-02-24 14:20:13,450 - DDosDetection - INFO - Fwd IAT Mean: 0.0381
+2025-02-24 14:20:14,819 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_142013.json
+2025-02-24 14:20:14,819 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_142013.json
+2025-02-24 14:20:14,819 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_142013.json
+2025-02-24 14:20:14,819 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_142013.json
+2025-02-24 14:20:14,820 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:20:14,820 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:20:14,820 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:20:14,820 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:20:54,758 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:20:54,758 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:20:54,758 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:20:54,758 - DDosDetection - INFO - Loading test data and model artifacts...
+2025-02-24 14:20:54,908 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:20:54,908 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:20:54,908 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:20:54,908 - DDosDetection - INFO - Preprocessing test data...
+2025-02-24 14:20:54,957 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:20:54,957 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:20:54,957 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:20:54,957 - DDosDetection - INFO - Evaluating model on test data...
+2025-02-24 14:20:55,627 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_142054.json
+2025-02-24 14:20:55,627 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_142054.json
+2025-02-24 14:20:55,627 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_142054.json
+2025-02-24 14:20:55,627 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_142054.json
+2025-02-24 14:20:55,628 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:20:55,628 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:20:55,628 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:20:55,628 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:20:55,628 - DDosDetection - INFO - Test metrics: {'accuracy': 0.7916629751041021, 'roc_auc': 0.999999908105398, 'classification_report': '              precision    recall  f1-score   support\n\n           0       0.68      1.00      0.81      9786\n           1       1.00      0.63      0.77     12788\n\n    accuracy                           0.79     22574\n   macro avg       0.84      0.82      0.79     22574\nweighted avg       0.86      0.79      0.79     22574\n'}
+2025-02-24 14:20:55,628 - DDosDetection - INFO - Test metrics: {'accuracy': 0.7916629751041021, 'roc_auc': 0.999999908105398, 'classification_report': '              precision    recall  f1-score   support\n\n           0       0.68      1.00      0.81      9786\n           1       1.00      0.63      0.77     12788\n\n    accuracy                           0.79     22574\n   macro avg       0.84      0.82      0.79     22574\nweighted avg       0.86      0.79      0.79     22574\n'}
+2025-02-24 14:20:55,628 - DDosDetection - INFO - Test metrics: {'accuracy': 0.7916629751041021, 'roc_auc': 0.999999908105398, 'classification_report': '              precision    recall  f1-score   support\n\n           0       0.68      1.00      0.81      9786\n           1       1.00      0.63      0.77     12788\n\n    accuracy                           0.79     22574\n   macro avg       0.84      0.82      0.79     22574\nweighted avg       0.86      0.79      0.79     22574\n'}
+2025-02-24 14:20:55,628 - DDosDetection - INFO - Test metrics: {'accuracy': 0.7916629751041021, 'roc_auc': 0.999999908105398, 'classification_report': '              precision    recall  f1-score   support\n\n           0       0.68      1.00      0.81      9786\n           1       1.00      0.63      0.77     12788\n\n    accuracy                           0.79     22574\n   macro avg       0.84      0.82      0.79     22574\nweighted avg       0.86      0.79      0.79     22574\n'}
+2025-02-24 14:23:20,688 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:23:20,688 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:23:20,688 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:23:20,688 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:23:45,898 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:23:45,898 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:23:45,898 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:23:45,898 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:23:45,899 - DDosDetection - INFO - Training data shape: (205417, 68)
+2025-02-24 14:23:45,899 - DDosDetection - INFO - Training data shape: (205417, 68)
+2025-02-24 14:23:45,899 - DDosDetection - INFO - Training data shape: (205417, 68)
+2025-02-24 14:23:45,899 - DDosDetection - INFO - Training data shape: (205417, 68)
+2025-02-24 14:23:45,902 - DDosDetection - INFO - Class distribution:
+1.0    0.567137
+0.0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:23:45,902 - DDosDetection - INFO - Class distribution:
+1.0    0.567137
+0.0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:23:45,902 - DDosDetection - INFO - Class distribution:
+1.0    0.567137
+0.0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:23:45,902 - DDosDetection - INFO - Class distribution:
+1.0    0.567137
+0.0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:23:45,938 - DDosDetection - ERROR - Error in model training: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:23:45,938 - DDosDetection - ERROR - Error in model training: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:23:45,938 - DDosDetection - ERROR - Error in model training: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:23:45,938 - DDosDetection - ERROR - Error in model training: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:23:45,939 - DDosDetection - ERROR - Error in main execution: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:23:45,939 - DDosDetection - ERROR - Error in main execution: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:23:45,939 - DDosDetection - ERROR - Error in main execution: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:23:45,939 - DDosDetection - ERROR - Error in main execution: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:25:02,278 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:25:02,278 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:25:02,278 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:25:02,278 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:25:03,423 - DDosDetection - INFO - Starting data preprocessing and split...
+2025-02-24 14:25:03,423 - DDosDetection - INFO - Starting data preprocessing and split...
+2025-02-24 14:25:03,423 - DDosDetection - INFO - Starting data preprocessing and split...
+2025-02-24 14:25:03,423 - DDosDetection - INFO - Starting data preprocessing and split...
+2025-02-24 14:25:05,258 - DDosDetection - INFO - Split completed. Training set shape: (158020, 68)
+2025-02-24 14:25:05,258 - DDosDetection - INFO - Split completed. Training set shape: (158020, 68)
+2025-02-24 14:25:05,258 - DDosDetection - INFO - Split completed. Training set shape: (158020, 68)
+2025-02-24 14:25:05,258 - DDosDetection - INFO - Split completed. Training set shape: (158020, 68)
+2025-02-24 14:25:05,258 - DDosDetection - INFO - Test set shape: (67723, 68)
+2025-02-24 14:25:05,258 - DDosDetection - INFO - Test set shape: (67723, 68)
+2025-02-24 14:25:05,258 - DDosDetection - INFO - Test set shape: (67723, 68)
+2025-02-24 14:25:05,258 - DDosDetection - INFO - Test set shape: (67723, 68)
+2025-02-24 14:25:30,041 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:25:30,041 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:25:30,041 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:25:30,041 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:25:30,042 - DDosDetection - INFO - Training data shape: (205417, 68)
+2025-02-24 14:25:30,042 - DDosDetection - INFO - Training data shape: (205417, 68)
+2025-02-24 14:25:30,042 - DDosDetection - INFO - Training data shape: (205417, 68)
+2025-02-24 14:25:30,042 - DDosDetection - INFO - Training data shape: (205417, 68)
+2025-02-24 14:25:30,051 - DDosDetection - INFO - Class distribution:
+1.0    0.567137
+0.0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:25:30,051 - DDosDetection - INFO - Class distribution:
+1.0    0.567137
+0.0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:25:30,051 - DDosDetection - INFO - Class distribution:
+1.0    0.567137
+0.0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:25:30,051 - DDosDetection - INFO - Class distribution:
+1.0    0.567137
+0.0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:25:30,097 - DDosDetection - ERROR - Error in model training: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:25:30,097 - DDosDetection - ERROR - Error in model training: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:25:30,097 - DDosDetection - ERROR - Error in model training: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:25:30,097 - DDosDetection - ERROR - Error in model training: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:25:30,108 - DDosDetection - ERROR - Error in main execution: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:25:30,108 - DDosDetection - ERROR - Error in main execution: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:25:30,108 - DDosDetection - ERROR - Error in main execution: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:25:30,108 - DDosDetection - ERROR - Error in main execution: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:28:19,088 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:28:19,088 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:28:19,088 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:28:19,088 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:28:20,602 - DDosDetection - INFO - Starting data preprocessing and split...
+2025-02-24 14:28:20,602 - DDosDetection - INFO - Starting data preprocessing and split...
+2025-02-24 14:28:20,602 - DDosDetection - INFO - Starting data preprocessing and split...
+2025-02-24 14:28:20,602 - DDosDetection - INFO - Starting data preprocessing and split...
+2025-02-24 14:28:21,011 - DDosDetection - INFO - Removed 0 rows with missing values
+2025-02-24 14:28:21,011 - DDosDetection - INFO - Removed 0 rows with missing values
+2025-02-24 14:28:21,011 - DDosDetection - INFO - Removed 0 rows with missing values
+2025-02-24 14:28:21,011 - DDosDetection - INFO - Removed 0 rows with missing values
+2025-02-24 14:28:21,444 - DDosDetection - INFO - Removed 0 duplicate rows
+2025-02-24 14:28:21,444 - DDosDetection - INFO - Removed 0 duplicate rows
+2025-02-24 14:28:21,444 - DDosDetection - INFO - Removed 0 duplicate rows
+2025-02-24 14:28:21,444 - DDosDetection - INFO - Removed 0 duplicate rows
+2025-02-24 14:28:21,444 - DDosDetection - INFO - 
+Label Distribution:
+2025-02-24 14:28:21,444 - DDosDetection - INFO - 
+Label Distribution:
+2025-02-24 14:28:21,444 - DDosDetection - INFO - 
+Label Distribution:
+2025-02-24 14:28:21,444 - DDosDetection - INFO - 
+Label Distribution:
+2025-02-24 14:28:21,455 - DDosDetection - INFO - DDoS      128027
+BENIGN     97716
+Name: Label, dtype: int64
+2025-02-24 14:28:21,455 - DDosDetection - INFO - DDoS      128027
+BENIGN     97716
+Name: Label, dtype: int64
+2025-02-24 14:28:21,455 - DDosDetection - INFO - DDoS      128027
+BENIGN     97716
+Name: Label, dtype: int64
+2025-02-24 14:28:21,455 - DDosDetection - INFO - DDoS      128027
+BENIGN     97716
+Name: Label, dtype: int64
+2025-02-24 14:28:21,457 - DDosDetection - INFO - 
+Label Distribution (%):
+2025-02-24 14:28:21,457 - DDosDetection - INFO - 
+Label Distribution (%):
+2025-02-24 14:28:21,457 - DDosDetection - INFO - 
+Label Distribution (%):
+2025-02-24 14:28:21,457 - DDosDetection - INFO - 
+Label Distribution (%):
+2025-02-24 14:28:21,468 - DDosDetection - INFO - DDoS      56.713608
+BENIGN    43.286392
+Name: Label, dtype: float64
+2025-02-24 14:28:21,468 - DDosDetection - INFO - DDoS      56.713608
+BENIGN    43.286392
+Name: Label, dtype: float64
+2025-02-24 14:28:21,468 - DDosDetection - INFO - DDoS      56.713608
+BENIGN    43.286392
+Name: Label, dtype: float64
+2025-02-24 14:28:21,468 - DDosDetection - INFO - DDoS      56.713608
+BENIGN    43.286392
+Name: Label, dtype: float64
+2025-02-24 14:28:21,914 - DDosDetection - INFO - Final training set shape: (158020, 68)
+2025-02-24 14:28:21,914 - DDosDetection - INFO - Final training set shape: (158020, 68)
+2025-02-24 14:28:21,914 - DDosDetection - INFO - Final training set shape: (158020, 68)
+2025-02-24 14:28:21,914 - DDosDetection - INFO - Final training set shape: (158020, 68)
+2025-02-24 14:28:21,914 - DDosDetection - INFO - Final test set shape: (67723, 68)
+2025-02-24 14:28:21,914 - DDosDetection - INFO - Final test set shape: (67723, 68)
+2025-02-24 14:28:21,914 - DDosDetection - INFO - Final test set shape: (67723, 68)
+2025-02-24 14:28:21,914 - DDosDetection - INFO - Final test set shape: (67723, 68)
+2025-02-24 14:28:45,889 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:28:45,889 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:28:45,889 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:28:45,889 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:28:45,890 - DDosDetection - INFO - Training data shape: (205417, 68)
+2025-02-24 14:28:45,890 - DDosDetection - INFO - Training data shape: (205417, 68)
+2025-02-24 14:28:45,890 - DDosDetection - INFO - Training data shape: (205417, 68)
+2025-02-24 14:28:45,890 - DDosDetection - INFO - Training data shape: (205417, 68)
+2025-02-24 14:28:45,894 - DDosDetection - INFO - Class distribution:
+1.0    0.567137
+0.0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:28:45,894 - DDosDetection - INFO - Class distribution:
+1.0    0.567137
+0.0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:28:45,894 - DDosDetection - INFO - Class distribution:
+1.0    0.567137
+0.0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:28:45,894 - DDosDetection - INFO - Class distribution:
+1.0    0.567137
+0.0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:28:45,924 - DDosDetection - ERROR - Error in model training: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:28:45,924 - DDosDetection - ERROR - Error in model training: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:28:45,924 - DDosDetection - ERROR - Error in model training: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:28:45,924 - DDosDetection - ERROR - Error in model training: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:28:45,925 - DDosDetection - ERROR - Error in main execution: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:28:45,925 - DDosDetection - ERROR - Error in main execution: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:28:45,925 - DDosDetection - ERROR - Error in main execution: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:28:45,925 - DDosDetection - ERROR - Error in main execution: Input contains NaN, infinity or a value too large for dtype('float64').
+2025-02-24 14:33:40,970 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:33:40,970 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:33:40,970 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:33:40,970 - DDosDetection - INFO - Loading and splitting data...
+2025-02-24 14:33:42,161 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 14:33:42,161 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 14:33:42,161 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 14:33:42,161 - DDosDetection - INFO - Starting data preprocessing...
+2025-02-24 14:33:42,609 - DDosDetection - INFO - Data preprocessing completed. Features shape: (225743, 68)
+2025-02-24 14:33:42,609 - DDosDetection - INFO - Data preprocessing completed. Features shape: (225743, 68)
+2025-02-24 14:33:42,609 - DDosDetection - INFO - Data preprocessing completed. Features shape: (225743, 68)
+2025-02-24 14:33:42,609 - DDosDetection - INFO - Data preprocessing completed. Features shape: (225743, 68)
+2025-02-24 14:34:08,988 - DDosDetection - INFO - Training data loaded successfully. Shape: (158020, 68)
+2025-02-24 14:34:08,988 - DDosDetection - INFO - Training data loaded successfully. Shape: (158020, 68)
+2025-02-24 14:34:08,988 - DDosDetection - INFO - Training data loaded successfully. Shape: (158020, 68)
+2025-02-24 14:34:08,988 - DDosDetection - INFO - Training data loaded successfully. Shape: (158020, 68)
+2025-02-24 14:34:08,990 - DDosDetection - INFO - Class distribution:
+1    0.567137
+0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:34:08,990 - DDosDetection - INFO - Class distribution:
+1    0.567137
+0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:34:08,990 - DDosDetection - INFO - Class distribution:
+1    0.567137
+0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:34:08,990 - DDosDetection - INFO - Class distribution:
+1    0.567137
+0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:34:08,990 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:34:08,990 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:34:08,990 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:34:08,990 - DDosDetection - INFO - Starting Random Forest training...
+2025-02-24 14:34:08,990 - DDosDetection - INFO - Training data shape: (158020, 68)
+2025-02-24 14:34:08,990 - DDosDetection - INFO - Training data shape: (158020, 68)
+2025-02-24 14:34:08,990 - DDosDetection - INFO - Training data shape: (158020, 68)
+2025-02-24 14:34:08,990 - DDosDetection - INFO - Training data shape: (158020, 68)
+2025-02-24 14:34:08,992 - DDosDetection - INFO - Class distribution:
+1    0.567137
+0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:34:08,992 - DDosDetection - INFO - Class distribution:
+1    0.567137
+0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:34:08,992 - DDosDetection - INFO - Class distribution:
+1    0.567137
+0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:34:08,992 - DDosDetection - INFO - Class distribution:
+1    0.567137
+0    0.432863
+Name: Label, dtype: float64
+2025-02-24 14:37:14,772 - DDosDetection - INFO - 
+Training completed in 185.76 seconds
+2025-02-24 14:37:14,772 - DDosDetection - INFO - 
+Training completed in 185.76 seconds
+2025-02-24 14:37:14,772 - DDosDetection - INFO - 
+Training completed in 185.76 seconds
+2025-02-24 14:37:14,772 - DDosDetection - INFO - 
+Training completed in 185.76 seconds
+2025-02-24 14:37:14,773 - DDosDetection - INFO - Best parameters found: {'class_weight': 'balanced', 'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}
+2025-02-24 14:37:14,773 - DDosDetection - INFO - Best parameters found: {'class_weight': 'balanced', 'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}
+2025-02-24 14:37:14,773 - DDosDetection - INFO - Best parameters found: {'class_weight': 'balanced', 'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}
+2025-02-24 14:37:14,773 - DDosDetection - INFO - Best parameters found: {'class_weight': 'balanced', 'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}
+2025-02-24 14:37:14,774 - DDosDetection - INFO - Best cross-validation F1 score: 0.9999
+2025-02-24 14:37:14,774 - DDosDetection - INFO - Best cross-validation F1 score: 0.9999
+2025-02-24 14:37:14,774 - DDosDetection - INFO - Best cross-validation F1 score: 0.9999
+2025-02-24 14:37:14,774 - DDosDetection - INFO - Best cross-validation F1 score: 0.9999
+2025-02-24 14:37:14,781 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:37:14,781 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:37:14,781 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:37:14,781 - DDosDetection - INFO - 
+Top 10 most important features:
+2025-02-24 14:37:14,782 - DDosDetection - INFO -                    feature  importance
+1         Destination Port    0.117310
+8    Fwd Packet Length Max    0.113851
+55       Subflow Fwd Bytes    0.087961
+58  Init_Win_bytes_forward    0.074658
+10  Fwd Packet Length Mean    0.064100
+20             Fwd IAT Max    0.060991
+11   Bwd Packet Length Max    0.044612
+60        act_data_pkt_fwd    0.043841
+19            Fwd IAT Mean    0.041203
+47    Avg Bwd Segment Size    0.037834
+2025-02-24 14:37:14,782 - DDosDetection - INFO -                    feature  importance
+1         Destination Port    0.117310
+8    Fwd Packet Length Max    0.113851
+55       Subflow Fwd Bytes    0.087961
+58  Init_Win_bytes_forward    0.074658
+10  Fwd Packet Length Mean    0.064100
+20             Fwd IAT Max    0.060991
+11   Bwd Packet Length Max    0.044612
+60        act_data_pkt_fwd    0.043841
+19            Fwd IAT Mean    0.041203
+47    Avg Bwd Segment Size    0.037834
+2025-02-24 14:37:14,782 - DDosDetection - INFO -                    feature  importance
+1         Destination Port    0.117310
+8    Fwd Packet Length Max    0.113851
+55       Subflow Fwd Bytes    0.087961
+58  Init_Win_bytes_forward    0.074658
+10  Fwd Packet Length Mean    0.064100
+20             Fwd IAT Max    0.060991
+11   Bwd Packet Length Max    0.044612
+60        act_data_pkt_fwd    0.043841
+19            Fwd IAT Mean    0.041203
+47    Avg Bwd Segment Size    0.037834
+2025-02-24 14:37:14,782 - DDosDetection - INFO -                    feature  importance
+1         Destination Port    0.117310
+8    Fwd Packet Length Max    0.113851
+55       Subflow Fwd Bytes    0.087961
+58  Init_Win_bytes_forward    0.074658
+10  Fwd Packet Length Mean    0.064100
+20             Fwd IAT Max    0.060991
+11   Bwd Packet Length Max    0.044612
+60        act_data_pkt_fwd    0.043841
+19            Fwd IAT Mean    0.041203
+47    Avg Bwd Segment Size    0.037834
+2025-02-24 14:37:16,480 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_143714.json
+2025-02-24 14:37:16,480 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_143714.json
+2025-02-24 14:37:16,480 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_143714.json
+2025-02-24 14:37:16,480 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_143714.json
+2025-02-24 14:37:16,480 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:37:16,480 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:37:16,480 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:37:16,480 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:38:02,340 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_143801.json
+2025-02-24 14:38:02,340 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_143801.json
+2025-02-24 14:38:02,340 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_143801.json
+2025-02-24 14:38:02,340 - DDosDetection - INFO - Evaluation results saved to reports/results/train_results_20250224_143801.json
+2025-02-24 14:38:02,340 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:38:02,340 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:38:02,340 - DDosDetection - INFO - Plots saved in reports/figures
+2025-02-24 14:38:02,340 - DDosDetection - INFO - Plots saved in reports/figures

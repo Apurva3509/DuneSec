@@ -267,22 +267,22 @@ def main():
     evaluate_model(best_model, X_test, y_test, run_dir)
     
     # 9. Save the trained model in the new run folder
-    model_path = os.path.join(run_dir, "best_xgb_model-v1.pkl")
+    model_path = os.path.join(run_dir, "best_rf_model-v1.pkl")
     save_model(best_model, model_path)
     
     # 10. Save best hyperparams to a text file
     hyperparam_file = os.path.join(run_dir, "best_hyperparams.txt")
     with open(hyperparam_file, "w") as f:
-        f.write("Best Hyperparameters:\n")
+        f.write("Best Random Forest Hyperparameters:\n")
         f.write(str(best_params) + "\n")
         f.write(f"Best F1 Score (CV): {best_score:.4f}\n")
     print(f"Best hyperparams saved to '{hyperparam_file}'")
     
     # 11. Basic Monitoring
     print("\n--- Basic Monitoring Discussion ---")
-    print("1. Track model output distribution (fraction of DDoS) over time.")
-    print("2. Log predictions/metrics for analysis over time.")
-    print("3. Periodically retrain or fine-tune if new labeled data arrives.")
+    print("1. Monitor feature importance over time")
+    print("2. Track prediction distribution changes")
+    print("3. Set up periodic model retraining")
 
 if __name__ == "__main__":
     main()
