@@ -89,87 +89,88 @@ pip install -r requirements.txt
 │       ├── 081055f970e441f993a39423ed6cf9c3/
 │       │   ├── artifacts/
 │       │   ├── metrics/
-│       │   │   ├── cv_score_mean
-│       │   │   └── cv_score_std
-│       │   ├── params/
-│       │   │   ├── eval_metric
-│       │   │   ├── learning_rate
-│       │   │   ├── max_depth
-│       │   │   ├── n_estimators
-│       │   │   └── objective
-│       │   ├── tags/
-│       │   │   ├── mlflow.source.git.commit
-│       │   │   ├── mlflow.source.name
-│       │   │   ├── mlflow.source.type
-│       │   │   └── mlflow.user
-│       │   └── meta.yaml
-│       ├── 27e907663df046ed8a200124db985bc6/
-│       │   ├── artifacts/
-│       │   ├── metrics/
-│       │   │   ├── test_accuracy
-│       │   │   └── test_roc_auc
-│       │   ├── params/
-│       │   ├── tags/
-│       │   │   ├── mlflow.source.git.commit
-│       │   │   ├── mlflow.source.name
-│       │   │   ├── mlflow.source.type
-│       │   │   └── mlflow.user
-│       │   └── meta.yaml
-│       ├── 511934cf31b04653a01169ddbd3c5bf1/
-│       │   ├── artifacts/
-│       │   ├── metrics/
-│       │   │   ├── cv_score_mean
-│       │   │   └── cv_score_std
-│       │   ├── params/
-│       │   │   ├── eval_metric
-│       │   │   ├── learning_rate
-│       │   │   ├── max_depth
-│       │   │   ├── n_estimators
-│       │   │   └── objective
-│       │   ├── tags/
-│       │   │   ├── mlflow.source.git.commit
-│       │   │   ├── mlflow.source.name
-│       │   │   ├── mlflow.source.type
-│       │   │   └── mlflow.user
-│       │   └── meta.yaml
-│       ├── a5b66f52f27446a1b518ab7908032e80/
-│       │   ├── artifacts/
-│       │   ├── metrics/
-│       │   ├── params/
-│       │   ├── tags/
-│       │   │   ├── mlflow.source.git.commit
-│       │   │   ├── mlflow.source.name
-│       │   │   ├── mlflow.source.type
-│       │   │   └── mlflow.user
-│       │   └── meta.yaml
-│       ├── f55208b492c34e9cb3bf89795f6d14af/
-│       │   ├── artifacts/
-│       │   ├── metrics/
-│       │   │   ├── cv_score_mean
-│       │   │   └── cv_score_std
-│       │   ├── params/
-│       │   │   ├── eval_metric
-│       │   │   ├── learning_rate
-│       │   │   ├── max_depth
-│       │   │   ├── n_estimators
-│       │   │   └── objective
-│       │   ├── tags/
-│       │   │   ├── mlflow.source.git.commit
-│       │   │   ├── mlflow.source.name
-│       │   │   ├── mlflow.source.type
-│       │   │   └── mlflow.user
-│       │   └── meta.yaml
-│       ├── fa8e4d6257cc419f911eaa4caa61d2a2/
-│       │   ├── artifacts/
-│       │   ├── metrics/
-│       │   ├── params/
-│       │   ├── tags/
-│       │   │   ├── mlflow.source.git.commit
-│       │   │   ├── mlflow.source.name
-│       │   │   ├── mlflow.source.type
-│       │   │   └── mlflow.user
-│       │   └── meta.yaml
-│       └── meta.yaml
+│   │   │   │   ├── cv_score_mean
+│   │   │   │   └── cv_score_std
+│   │   │   ├── params/
+│   │   │   │   ├── eval_metric
+│   │   │   │   ├── learning_rate
+│   │   │   │   ├── max_depth
+│   │   │   │   ├── n_estimators
+│   │   │   │   └── objective
+│   │   │   ├── tags/
+│   │   │   │   ├── mlflow.source.git.commit
+│   │   │   │   ├── mlflow.source.name
+│   │   │   │   ├── mlflow.source.type
+│   │   │   │   └── mlflow.user
+│   │   │   └── meta.yaml
+│   │   ├── 27e907663df046ed8a200124db985bc6/
+│   │   │   ├── artifacts/
+│   │   │   ├── metrics/
+│   │   │   │   ├── test_accuracy
+│   │   │   │   └── test_roc_auc
+│   │   │   ├── params/
+│   │   │   ├── tags/
+│   │   │   │   ├── mlflow.source.git.commit
+│   │   │   │   ├── mlflow.source.name
+│   │   │   │   ├── mlflow.source.type
+│   │   │   │   └── mlflow.user
+│   │   │   └── meta.yaml
+│   │   ├── 511934cf31b04653a01169ddbd3c5bf1/
+│   │   │   ├── artifacts/
+│   │   │   ├── metrics/
+│   │   │   │   ├── cv_score_mean
+│   │   │   │   └── cv_score_std
+│   │   │   ├── params/
+│   │   │   │   ├── eval_metric
+│   │   │   │   ├── learning_rate
+│   │   │   │   ├── max_depth
+│   │   │   │   ├── n_estimators
+│   │   │   │   └── objective
+│   │   │   ├── tags/
+│   │   │   │   ├── mlflow.source.git.commit
+│   │   │   │   ├── mlflow.source.name
+│   │   │   │   ├── mlflow.source.type
+│   │   │   │   └── mlflow.user
+│   │   │   └── meta.yaml
+│   │   ├── a5b66f52f27446a1b518ab7908032e80/
+│   │   │   ├── artifacts/
+│   │   │   ├── metrics/
+│   │   │   ├── params/
+│   │   │   ├── tags/
+│   │   │   │   ├── mlflow.source.git.commit
+│   │   │   │   ├── mlflow.source.name
+│   │   │   │   ├── mlflow.source.type
+│   │   │   │   └── mlflow.user
+│   │   │   └── meta.yaml
+│   │   ├── f55208b492c34e9cb3bf89795f6d14af/
+│   │   │   ├── artifacts/
+│   │   │   ├── metrics/
+│   │   │   │   ├── cv_score_mean
+│   │   │   │   └── cv_score_std
+│   │   │   ├── params/
+│   │   │   │   ├── eval_metric
+│   │   │   │   ├── learning_rate
+│   │   │   │   ├── max_depth
+│   │   │   │   ├── n_estimators
+│   │   │   │   └── objective
+│   │   │   ├── tags/
+│   │   │   │   ├── mlflow.source.git.commit
+│   │   │   │   ├── mlflow.source.name
+│   │   │   │   ├── mlflow.source.type
+│   │   │   │   └── mlflow.user
+│   │   │   └── meta.yaml
+│   │   ├── fa8e4d6257cc419f911eaa4caa61d2a2/
+│   │   │   ├── artifacts/
+│   │   │   ├── metrics/
+│   │   │   ├── params/
+│   │   │   ├── tags/
+│   │   │   │   ├── mlflow.source.git.commit
+│   │   │   │   ├── mlflow.source.name
+│   │   │   │   ├── mlflow.source.type
+│   │   │   │   └── mlflow.user
+│   │   │   └── meta.yaml
+│   │   └── meta.yaml
+│   └── meta.yaml
 ├── model_artifacts/
 │   ├── label_encoder.joblib
 │   ├── random_forest_model.joblib
