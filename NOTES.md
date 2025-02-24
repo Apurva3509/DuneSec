@@ -29,10 +29,10 @@ Data columns have been cleaned and preprocessed to account for missing values, i
 - DDoS detection tasks can be sensitive to distribution drift, so it’s often beneficial to ensure that random sampling does not inadvertently end up with mostly similar flows in train or test sets.
 - This ensures the model generalizes rather than memorizes a specific subset of flows.
 
-- Training Set: 70% of data
+- Training Set: 80% of data
   * Large enough for feature importance analysis
 
-- Test Set: 30% of data
+- Test Set: 20% of data
   * Held out for final evaluation(completely unseen data reserved for final evaluation)
   * Will provide unbiased performance metrics
 
