@@ -1,0 +1,5 @@
+mlflow
+pandas==1.4.4
+scikit-learn==1.0.2
+typing-extensions==4.12.2
+xgboost==1.6.1

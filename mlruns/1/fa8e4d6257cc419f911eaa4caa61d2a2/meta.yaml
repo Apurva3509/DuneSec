@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/fa8e4d6257cc419f911eaa4caa61d2a2/artifacts
+end_time: 1740368637751
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: fa8e4d6257cc419f911eaa4caa61d2a2
+run_uuid: fa8e4d6257cc419f911eaa4caa61d2a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740368637739
+status: 4
+tags: []
+user_id: apurva
