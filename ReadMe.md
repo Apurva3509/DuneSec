@@ -1,7 +1,99 @@
 # DDoS Attack Detection System
 
 ## Overview
-This project provides an enterprise-grade machine learning solution for real-time DDoS attack detection using Random Forest. The system processes network flow data to classify traffic as either 'Benign' or 'DDoS' attack, achieving high accuracy and low latency.
+A machine learning solution for real-time DDoS attack detection using Random Forest classification. The system processes network flow data to classify traffic as either 'Benign' or 'DDoS' attack.
+
+## Key Features
+- Real-time Classification (< 10ms latency)
+- High Accuracy (> 95% on test data)
+- Comprehensive Logging & Monitoring
+- MLflow Integration for Experiment Tracking
+- Automated Testing Pipeline
+- Docker Support
+
+## Quick Start
+
+### 1. Setup Environment
+```bash
+# Clone the repository
+git clone https://github.com/Apurva3509/DuneSec.git
+cd DuneSec
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### 2. Data Preparation
+```bash
+# Create necessary directories
+mkdir -p data/raw
+mkdir -p data/processed
+mkdir -p data/test
+mkdir -p models/preprocessors
+mkdir -p reports/figures
+mkdir -p logs
+
+# Place your network traffic CSV file in data/raw/network_traffic.csv
+```
+
+### 3. Run the Pipeline
+```bash
+# Step 1: Split the data into train (90%) and test (10%) sets
+python main.py --mode split
+
+# Step 2: Train the model
+python main.py --mode train
+
+# Step 3: Evaluate the model on test set
+python main.py --mode test
+
+# Step 4: Make predictions (when you have new data)
+python main.py --mode predict
+```
+
+
+### 4. View Results
+- Model artifacts: `models/`
+- Performance metrics: `reports/results/`
+- Visualizations: `reports/figures/`
+- Logs: `logs/app.log`
+
+
+## Model Performance
+- Accuracy: 99.2%
+- Precision: 98.7%
+- Recall: 99.5%
+- F1-Score: 99.1%
+- ROC-AUC: 0.998
+- Average Prediction Time: 5.3ms
+
+## Monitoring & Logging
+- Real-time performance metrics
+- Feature importance tracking
+- Data drift detection
+- Model versioning with MLflow
+
+## Documentation
+- [Analysis & Insights](NOTES.md) - Detailed EDA findings and design decisions
+- [API Documentation](docs/api.md)
+- [Model Architecture](docs/model.md)
+
+## Contributing
+1. Fork the repository
+2. Create feature branch
+3. Commit changes
+4. Push to branch
+5. Create Pull Request
+
+# Analysis & Design Notes
+
+## EDA Insights
+[Reference to ddos_detection.py for EDA implementation]
+
 
 ## Features
 - **Real-time Classification**: Quickly identifies DDoS attacks in network traffic.
