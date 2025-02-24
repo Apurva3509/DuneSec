@@ -1,7 +1,7 @@
 # DDoS Attack Detection System
 
 ## Overview
-This project provides an enterprise-grade machine learning solution for real-time DDoS attack detection using XGBoost. The system processes network flow data to classify traffic as either benign or a DDoS attack, achieving high accuracy and low latency.
+This project provides an enterprise-grade machine learning solution for real-time DDoS attack detection using Random Forest. The system processes network flow data to classify traffic as either 'Benign' or 'DDoS' attack, achieving high accuracy and low latency.
 
 ## Features
 - **Real-time Classification**: Quickly identifies DDoS attacks in network traffic.
@@ -11,35 +11,6 @@ This project provides an enterprise-grade machine learning solution for real-tim
 - **Comprehensive Logging**: Detailed logs for monitoring and debugging.
 - **Model Versioning**: Track and manage different model versions.
 - **Automated Testing**: Continuous integration and testing pipeline.
-
-## Project Structure
-ddos_detection/
-├── config/
-│   └── config.yaml
-├── data/
-│   ├── processed/
-│   ├── raw/
-│   └── test/
-├── models/
-├── notebooks/
-├── reports/
-│   ├── figures/
-│   └── results/
-├── scripts/
-│   └── generate_tree.py
-└── src/
-    ├── data/
-    │   ├── __init__.py
-    │   └── data_preprocessing.py
-    ├── evaluation/
-    │   ├── __init__.py
-    │   └── model_evaluation.py
-    ├── models/
-    │   ├── __init__.py
-    │   └── model_trainer.py
-    └── utils/
-        ├── __init__.py
-        └── logger.py
 
 
 1. **Setup Environment**
@@ -59,6 +30,9 @@ source venv/bin/activate
 
 # Install requirements
 pip install -r requirements.txt
+```
+
+## Directory Tree
 ```
 .
 ├── config/
@@ -246,6 +220,7 @@ pip install -r requirements.txt
 ├── main.py
 └── requirements.txt
 ```
+
 ```bash
 # Create necessary directories
 mkdir -p data/raw
