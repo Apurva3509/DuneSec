@@ -32,7 +32,65 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Directory Tree
+```bash
+# Create necessary directories
+mkdir -p data/raw
+mkdir -p data/processed
+mkdir -p data/test
+mkdir -p models/preprocessors
+mkdir -p reports/figures
+mkdir -p logs
+
+# Place your network traffic CSV file in data/raw/
+# Example: Copy your data file to data/raw/network_traffic.csv
+```
+
+
+3. **Run the Pipeline**
+```bash
+# Step 1: Split the data into train (90%) and test (10%) sets
+python main.py --mode split
+
+# Step 2: Train the model
+python main.py --mode train
+
+# Step 3: Evaluate the model on test set
+python main.py --mode test
+
+# Step 4: Make predictions (when you have new data)
+python main.py --mode predict
+```
+
+Check Results
+- Model artifacts will be in models/ directory
+- Visualizations will be in reports/figures/ directory
+- Logs will be in logs/ directory
+
+
+5. **Monitor Performance**
+```bash
+# View the latest log entries
+tail -f logs/app.log
+
+# Check model performance metrics in
+cat reports/test_results.txt
+```
+The system will:
+- Drop highly correlated features
+- Preprocess the data
+- Train the XGBoost model
+- Generate performance reports
+- Save the model and preprocessors
+
+You can find:
+- Model performance metrics in reports/figures/
+- Trained model in models/model.joblib
+- Preprocessors in models/preprocessors/
+- Logs in logs/app.log
+
+
+
+## Project Structure
 ```
 .
 ├── config/
@@ -221,59 +279,3 @@ pip install -r requirements.txt
 ├── main.py
 └── requirements.txt
 ```
-
-```bash
-# Create necessary directories
-mkdir -p data/raw
-mkdir -p data/processed
-mkdir -p data/test
-mkdir -p models/preprocessors
-mkdir -p reports/figures
-mkdir -p logs
-
-# Place your network traffic CSV file in data/raw/
-# Example: Copy your data file to data/raw/network_traffic.csv
-```
-
-
-3. **Run the Pipeline**
-```bash
-# Step 1: Split the data into train (90%) and test (10%) sets
-python main.py --mode split
-
-# Step 2: Train the model
-python main.py --mode train
-
-# Step 3: Evaluate the model on test set
-python main.py --mode test
-
-# Step 4: Make predictions (when you have new data)
-python main.py --mode predict
-```
-
-Check Results
-- Model artifacts will be in models/ directory
-- Visualizations will be in reports/figures/ directory
-- Logs will be in logs/ directory
-
-
-5. **Monitor Performance**
-```bash
-# View the latest log entries
-tail -f logs/app.log
-
-# Check model performance metrics in
-cat reports/test_results.txt
-```
-The system will:
-- Drop highly correlated features
-- Preprocess the data
-- Train the XGBoost model
-- Generate performance reports
-- Save the model and preprocessors
-
-You can find:
-- Model performance metrics in reports/figures/
-- Trained model in models/model.joblib
-- Preprocessors in models/preprocessors/
-- Logs in logs/app.log
