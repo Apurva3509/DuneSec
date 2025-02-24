@@ -14,22 +14,32 @@ This project provides an enterprise-grade machine learning solution for real-tim
 
 ## Project Structure
 ddos_detection/
-├── config/ # Configuration files
-├── data/ # Data management
-│ ├── raw/ # Raw network flow data
-│ ├── processed/ # Preprocessed data
-│ └── test/ # Hold-out test set (10%)
-├── models/ # Model artifacts
-│ ├── model.joblib # Trained model
-│ └── preprocessors/# Feature preprocessors
-├── src/ # Source code
-│ ├── data/ # Data processing modules
-│ ├── models/ # Model training modules
-│ ├── evaluation/ # Evaluation modules
-│ └── utils/ # Utility functions
-├── reports/ # Performance reports
-│ └── figures/ # Visualizations
-└── logs/ # Application logs
+├── config/
+│   └── config.yaml
+├── data/
+│   ├── processed/
+│   ├── raw/
+│   └── test/
+├── models/
+├── notebooks/
+├── reports/
+│   ├── figures/
+│   └── results/
+├── scripts/
+│   └── generate_tree.py
+└── src/
+    ├── data/
+    │   ├── __init__.py
+    │   └── data_preprocessing.py
+    ├── evaluation/
+    │   ├── __init__.py
+    │   └── model_evaluation.py
+    ├── models/
+    │   ├── __init__.py
+    │   └── model_trainer.py
+    └── utils/
+        ├── __init__.py
+        └── logger.py
 
 
 1. **Setup Environment**
@@ -50,9 +60,191 @@ source venv/bin/activate
 # Install requirements
 pip install -r requirements.txt
 ```
-
-
-2. **Prepare Data**
+.
+├── config/
+│   └── config.yaml
+├── data/
+│   ├── processed/
+│   │   ├── test.csv
+│   │   └── train.csv
+│   └── raw/
+│       ├── data-original.csv
+│       └── network_traffic.csv
+├── logs/
+│   └── app.log
+├── mlruns/
+│   ├── 0/
+│   │   ├── 2e9eff9f94e34abb994c9520cdae5fc0/
+│   │   │   ├── artifacts/
+│   │   │   ├── metrics/
+│   │   │   │   ├── test_accuracy
+│   │   │   │   └── test_roc_auc
+│   │   │   ├── params/
+│   │   │   ├── tags/
+│   │   │   │   ├── mlflow.source.git.commit
+│   │   │   │   ├── mlflow.source.name
+│   │   │   │   ├── mlflow.source.type
+│   │   │   │   └── mlflow.user
+│   │   │   └── meta.yaml
+│   │   ├── 3625057b68ce49c9a27ca9b56ffe27ad/
+│   │   │   ├── artifacts/
+│   │   │   ├── metrics/
+│   │   │   │   ├── test_accuracy
+│   │   │   │   └── test_roc_auc
+│   │   │   ├── params/
+│   │   │   ├── tags/
+│   │   │   │   ├── mlflow.source.git.commit
+│   │   │   │   ├── mlflow.source.name
+│   │   │   │   ├── mlflow.source.type
+│   │   │   │   └── mlflow.user
+│   │   │   └── meta.yaml
+│   │   ├── 6077e262c3d74f9e8ef2d9c405cbaf95/
+│   │   │   ├── artifacts/
+│   │   │   ├── metrics/
+│   │   │   │   ├── test_accuracy
+│   │   │   │   └── test_roc_auc
+│   │   │   ├── params/
+│   │   │   ├── tags/
+│   │   │   │   ├── mlflow.source.git.commit
+│   │   │   │   ├── mlflow.source.name
+│   │   │   │   ├── mlflow.source.type
+│   │   │   │   └── mlflow.user
+│   │   │   └── meta.yaml
+│   │   └── meta.yaml
+│   └── 1/
+│       ├── 081055f970e441f993a39423ed6cf9c3/
+│       │   ├── artifacts/
+│       │   ├── metrics/
+│       │   │   ├── cv_score_mean
+│       │   │   └── cv_score_std
+│       │   ├── params/
+│       │   │   ├── eval_metric
+│       │   │   ├── learning_rate
+│       │   │   ├── max_depth
+│       │   │   ├── n_estimators
+│       │   │   └── objective
+│       │   ├── tags/
+│       │   │   ├── mlflow.source.git.commit
+│       │   │   ├── mlflow.source.name
+│       │   │   ├── mlflow.source.type
+│       │   │   └── mlflow.user
+│       │   └── meta.yaml
+│       ├── 27e907663df046ed8a200124db985bc6/
+│       │   ├── artifacts/
+│       │   ├── metrics/
+│       │   │   ├── test_accuracy
+│       │   │   └── test_roc_auc
+│       │   ├── params/
+│       │   ├── tags/
+│       │   │   ├── mlflow.source.git.commit
+│       │   │   ├── mlflow.source.name
+│       │   │   ├── mlflow.source.type
+│       │   │   └── mlflow.user
+│       │   └── meta.yaml
+│       ├── 511934cf31b04653a01169ddbd3c5bf1/
+│       │   ├── artifacts/
+│       │   ├── metrics/
+│       │   │   ├── cv_score_mean
+│       │   │   └── cv_score_std
+│       │   ├── params/
+│       │   │   ├── eval_metric
+│       │   │   ├── learning_rate
+│       │   │   ├── max_depth
+│       │   │   ├── n_estimators
+│       │   │   └── objective
+│       │   ├── tags/
+│       │   │   ├── mlflow.source.git.commit
+│       │   │   ├── mlflow.source.name
+│       │   │   ├── mlflow.source.type
+│       │   │   └── mlflow.user
+│       │   └── meta.yaml
+│       ├── a5b66f52f27446a1b518ab7908032e80/
+│       │   ├── artifacts/
+│       │   ├── metrics/
+│       │   ├── params/
+│       │   ├── tags/
+│       │   │   ├── mlflow.source.git.commit
+│       │   │   ├── mlflow.source.name
+│       │   │   ├── mlflow.source.type
+│       │   │   └── mlflow.user
+│       │   └── meta.yaml
+│       ├── f55208b492c34e9cb3bf89795f6d14af/
+│       │   ├── artifacts/
+│       │   ├── metrics/
+│       │   │   ├── cv_score_mean
+│       │   │   └── cv_score_std
+│       │   ├── params/
+│       │   │   ├── eval_metric
+│       │   │   ├── learning_rate
+│       │   │   ├── max_depth
+│       │   │   ├── n_estimators
+│       │   │   └── objective
+│       │   ├── tags/
+│       │   │   ├── mlflow.source.git.commit
+│       │   │   ├── mlflow.source.name
+│       │   │   ├── mlflow.source.type
+│       │   │   └── mlflow.user
+│       │   └── meta.yaml
+│       ├── fa8e4d6257cc419f911eaa4caa61d2a2/
+│       │   ├── artifacts/
+│       │   ├── metrics/
+│       │   ├── params/
+│       │   ├── tags/
+│       │   │   ├── mlflow.source.git.commit
+│       │   │   ├── mlflow.source.name
+│       │   │   ├── mlflow.source.type
+│       │   │   └── mlflow.user
+│       │   └── meta.yaml
+│       └── meta.yaml
+├── model_artifacts/
+│   ├── label_encoder.joblib
+│   ├── random_forest_model.joblib
+│   └── scaler.joblib
+├── model_artifacts_20250224_1356/
+│   ├── label_encoder.joblib
+│   ├── model.joblib
+│   └── scaler.joblib
+├── models/
+│   └── random_forest_model.joblib
+├── reports/
+│   ├── figures/
+│   │   ├── confusion_matrix_test_20250224_144439.png
+│   │   ├── confusion_matrix_train_20250224_143714.png
+│   │   ├── feature_importance_20250224_143714.png
+│   │   ├── feature_importance_20250224_143801.png
+│   │   ├── feature_importance_test_20250224_144439.png
+│   │   ├── prediction_dist_test_20250224_144412.png
+│   │   ├── prediction_dist_test_20250224_144439.png
+│   │   ├── roc_curve_test_20250224_144439.png
+│   │   ├── roc_curve_train_20250224_143714.png
+│   │   ├── roc_curve_train_20250224_143801.png
+│   │   └── threshold_performance_test_20250224_144439.png
+│   └── results/
+│       ├── test_results_20250224_144439.json
+│       ├── train_results_20250224_143714.json
+│       └── train_results_20250224_143801.json
+├── scripts/
+│   └── generate_tree.py
+├── src/
+│   ├── data/
+│   │   ├── data_ingestion.py
+│   │   ├── data_preprocessing.py
+│   │   └── initial_split.py
+│   ├── evaluation/
+│   │   ├── model_evaluation.py
+│   │   └── test_predictor.py
+│   ├── models/
+│   │   ├── model_builder.py
+│   │   └── model_trainer.py
+│   ├── utils/
+│   │   └── logger.py
+│   └── ddos_detection.py
+├── DDoS-detection.ipynb
+├── Dockerfile
+├── ReadMe.md
+├── ai_engineer_assignment.pdf
+├── main.py
+└── requirements.txt
 ```bash
 # Create necessary directories
 mkdir -p data/raw
