@@ -105,41 +105,12 @@ You can find:
 
 # DDoS Attack Detection System
 
-## 1. Introduction
+## Introduction
 In this project, we develop a **machine learning solution** for real-time DDoS attack detection using **Random Forest classification**. The dataset consists of network traffic flows collected using **CICFlowMeterV3**, containing both benign traffic and traffic from **DDoS attacks**. The goal is to **accurately distinguish** between these two classes and deploy an efficient detection system.
 
 ---
 
-## 2. Assignment Breakdown
-
-### 2.1 Data Exploration & Analysis
-Before building the model, an **Exploratory Data Analysis (EDA)** was performed to gain insights into the dataset:
-- **Descriptive Statistics**: Understanding the distribution of features.
-- **Data Quality Issues**:
-  - Presence of missing values and outliers.
-  - Identification of highly correlated features for removal.
-- **Visualizations**:
-  - Class distribution (`DDoS: 56.7%, BENIGN: 43.3%`).
-  - Feature importance and correlation heatmaps.
-
-For details, refer to: 
-1. [`Preliminary model notebook`](notebooks/DDoS-detection.ipynb).
-2. [`EDA Notebook`](notebooks/data_eda-v2.ipynb).
----
-
-### 2.2 Modeling Strategy
-The chosen model for detecting DDoS attacks is **Random Forest**, due to:
-- **High interpretability**: Feature importance tracking.
-- **Robustness to noisy data**.
-- **Fast inference speed** (~5.3ms per prediction).
-
-#### Limitations:
-- Computationally expensive for large datasets.
-- May require **hyperparameter tuning** to avoid overfitting.
-
----
-
-### 2.3 Implementation
+## Quick Start Guide (aka How to run the code):
 
 #### 1. **Setup Environment**
 ```bash
@@ -181,6 +152,84 @@ python main.py --mode test
 # Step 4: Make predictions (when you have new data)
 python main.py --mode predict
 ```
+---
+
+## Assignment Breakdown
+
+### Data Exploration & Analysis
+Before building the model, an **Exploratory Data Analysis (EDA)** was performed to gain insights into the dataset:
+- **Descriptive Statistics**: Understanding the distribution of features.
+- **Data Quality Issues**:
+  - Presence of missing values and outliers.
+  - Identification of highly correlated features for removal.
+- **Visualizations**:
+  - Class distribution (`DDoS: 56.7%, BENIGN: 43.3%`).
+  - Feature importance and correlation heatmaps.
+
+For details, refer to: 
+1. [`Preliminary model notebook`](notebooks/DDoS-detection.ipynb).
+2. [`EDA Notebook`](notebooks/data_eda-v2.ipynb).
+---
+
+### Modeling Strategy
+The chosen model for detecting DDoS attacks is **Random Forest**, due to:
+- **High interpretability**: Feature importance tracking.
+- **Robustness to noisy data**.
+- **Fast inference speed** (~5.3ms per prediction).
+
+## Implementation Details
+
+### 1. Data Pipeline
+- **Data Ingestion**: 
+  - Implemented network flow data collection using CICFlowMeterV3
+  - Built robust data loading with error handling and validation
+  - Automated data quality checks for missing values and anomalies
+
+- **Preprocessing Pipeline**:
+  - Feature scaling using StandardScaler
+  - Label encoding for target variable
+  - Feature selection based on correlation analysis
+  - Data split: 80% training, 20% testing (configured in config.yaml)
+
+### 2. Model Development
+- **Algorithm Selection**:
+  - Evaluated multiple models (Random Forest, XGBoost, Neural Networks)
+  - Selected Random Forest for best balance of accuracy and inference speed
+  - Implemented 5-fold cross-validation for robust evaluation
+
+- **Hyperparameter Optimization**:
+  - Grid search for parameter tuning
+  - Optimized for F1-score
+  - Parameters tracked using MLflow
+
+### 3. Evaluation System
+- **Performance Metrics**:
+  - Real-time monitoring of accuracy, precision, recall
+  - Confusion matrix analysis
+  - ROC curve and AUC calculation
+
+- **Visualization Pipeline**:
+  - Automated generation of performance plots
+  - Feature importance visualization
+  - Prediction distribution analysis
+
+### 4. Production Pipeline
+- **Model Serving**:
+  - Joblib serialization for model artifacts
+  - Preprocessor versioning
+  - Batch prediction capability
+
+- **Monitoring System**:
+  - Performance metric logging
+  - Model prediction tracking
+  - Error rate monitoring
+
+#### Limitations:
+- Computationally expensive for large datasets.
+- May require **hyperparameter tuning** to avoid overfitting.
+
+---
+
 
 #### 4. **View Results**
 - **Model artifacts**: `models/`
@@ -236,8 +285,7 @@ To ensure reliable performance in real-world scenarios, the system includes:
 
 ---
 
-_Developed by [Apurva Patel](https://github.com/Apurva3509)_
-
+_Developed by [Apurva Patel](https://www.patelapurva.com)_
 
 ## Project Structure
 ```
@@ -433,3 +481,4 @@ _Developed by [Apurva Patel](https://github.com/Apurva3509)_
 ├── main.py
 └── requirements.txt
 ```
+
