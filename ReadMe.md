@@ -221,9 +221,6 @@ The chosen model for detecting DDoS attacks is **Random Forest**, due to:
   - Preprocessor versioning
   - Batch prediction capability
 
-
-...
-
 ### 5. API Implementation
 - **FastAPI Service**:
   - Real-time prediction endpoint
