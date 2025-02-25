@@ -1,108 +1,3 @@
-<!-- # DDoS Attack Detection System
-
-## Overview
-A machine learning solution for real-time DDoS attack detection using Random Forest classification. The system processes network flow data to classify traffic as either 'Benign' or 'DDoS' attack.
-
-## Key Features
-- Real-time Classification (< 10ms latency)
-- High Accuracy (> 95% on test data)
-- Comprehensive Logging & Monitoring
-
-## Quick Start
-
-### 1. Setup Environment
-```bash
-# Clone the repository
-git clone https://github.com/Apurva3509/DuneSec.git
-cd DuneSec
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-```bash
-# Create necessary directories
-mkdir -p data/raw
-mkdir -p data/processed
-mkdir -p data/test
-mkdir -p models/preprocessors
-mkdir -p reports/figures
-mkdir -p logs
-
-# Place your network traffic CSV file in data/raw/network_traffic.csv
-```
-
-### 3. Run the Pipeline
-```bash
-# Step 1: Split the data into train (80%) and test (20%) sets
-python main.py --mode split
-
-# Step 2: Train the model
-python main.py --mode train
-
-# Step 3: Evaluate the model on test set
-python main.py --mode test
-
-# Step 4: Make predictions (when you have new data)
-python main.py --mode predict
-```
-
-
-### 4. View Results
-- Model artifacts: `models/`
-- Performance metrics: `reports/results/`
-- Visualizations: `reports/figures/`
-- Logs: `logs/app.log`
-
-
-## Model Performance
-- Accuracy: 99.2%
-- Precision: 98.7%
-- Recall: 99.5%
-- F1-Score: 99.1%
-- ROC-AUC: 0.998
-- Average Prediction Time: 5.3ms
-
-## Monitoring & Logging
-- Real-time performance metrics
-- Feature importance tracking
-- Data drift detection
-- Model versioning with MLflow
-
-## Documentation
-- [Analysis & Insights](NOTES.md) - Detailed EDA findings and design decisions
-- [API Documentation](docs/api.md)
-- [Model Architecture](docs/model.md)
-
-## Contributing
-1. Fork the repository
-2. Create feature branch
-3. Commit changes
-4. Push to branch
-5. Create Pull Request
-
-# Analysis & Design Notes
-
-## EDA Insights
-[Reference to DDoS_detection.ipynb for EDA implementation]
-
-The system will:
-- Drop highly correlated features
-- Preprocess the data
-- Train the XGBoost model
-- Generate performance reports
-- Save the model and preprocessors
-
-You can find:
-- Model performance metrics in reports/figures/
-- Trained model in models/model.joblib
-- Preprocessors in models/preprocessors/
-- Logs in logs/app.log -->
-
 # DDoS Attack Detection System
 
 ![Project Banner](src/ddos.png)
@@ -111,6 +6,42 @@ You can find:
 In this project, we develop a **machine learning solution** for real-time DDoS attack detection using **Random Forest classification**. The dataset consists of network traffic flows collected using **CICFlowMeterV3**, containing both benign traffic and traffic from **DDoS attacks**. The goal is to **accurately distinguish** between these two classes and deploy an efficient detection system.
 
 ---
+# Table of Contents
+
+1. [Quick Start Guide](#quick-start-guide-aka-how-to-run-the-code)
+   - [Setup Environment](#1-setup-environment)
+   - [Directory Structure](#2-directory-structure)
+   - [Run the Pipeline](#3-run-the-pipeline)
+
+2. [Assignment Breakdown](#assignment-breakdown)
+   - [Data Exploration & Analysis](#data-exploration--analysis)
+   - [Modeling Strategy](#modeling-strategy)
+
+3. [Implementation Details](#implementation-details)
+   - [Data Pipeline](#1-data-pipeline)
+   - [Model Development](#2-model-development)
+   - [Evaluation System](#3-evaluation-system)
+   - [Production Pipeline](#4-production-pipeline)
+   - [API Implementation](#5-api-implementation)
+
+4. [Using the API](#using-the-api)
+   - [Start the API Server](#1-start-the-api-server)
+   - [Make Predictions](#2-make-predictions-open-a-new-terminal-while-keeping-the-api-running)
+   - [View Documentation](#3-view-documentation)
+
+5. [Results & Evaluation](#results--evaluation)
+   - [Performance Metrics](#results--evaluation)
+   - [Performance Evaluation](#performance-evaluation)
+
+6. [Monitoring & Logging](#monitoring--logging)
+
+7. [Documentation](#documentation)
+
+8. [Future Improvements](#future-improvements)
+
+---
+
+
 
 ## Quick Start Guide (aka How to run the code):
 
@@ -332,7 +263,7 @@ To ensure reliable performance in real-world scenarios, the system includes:
 
 _Developed by [Apurva Patel](https://www.patelapurva.com)_
 
-## Project Structure
+<!-- ## Project Structure
 ```
 .
 ├── config/
@@ -346,7 +277,8 @@ _Developed by [Apurva Patel](https://www.patelapurva.com)_
 │       └── network_traffic.csv
 ├── docs/
 │   ├── NOTES.md
-│   └── model.md
+│   ├── model.md
+│   └── Presentation.pdf
 ├── logs/
 │   └── app.log
 ├── mlruns/
@@ -526,4 +458,4 @@ _Developed by [Apurva Patel](https://www.patelapurva.com)_
 ├── main.py
 └── requirements.txt
 ```
-
+ -->
