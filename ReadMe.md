@@ -1,4 +1,4 @@
-# DDoS Attack Detection System
+<!-- # DDoS Attack Detection System
 
 ## Overview
 A machine learning solution for real-time DDoS attack detection using Random Forest classification. The system processes network flow data to classify traffic as either 'Benign' or 'DDoS' attack.
@@ -7,9 +7,6 @@ A machine learning solution for real-time DDoS attack detection using Random For
 - Real-time Classification (< 10ms latency)
 - High Accuracy (> 95% on test data)
 - Comprehensive Logging & Monitoring
-- MLflow Integration for Experiment Tracking
-- Automated Testing Pipeline
-- Docker Support
 
 ## Quick Start
 
@@ -104,8 +101,167 @@ You can find:
 - Model performance metrics in reports/figures/
 - Trained model in models/model.joblib
 - Preprocessors in models/preprocessors/
-- Logs in logs/app.log
+- Logs in logs/app.log -->
 
+# DDoS Attack Detection System
+
+## 1. Introduction
+In this project, we develop a **machine learning solution** for real-time DDoS attack detection using **Random Forest classification**. The dataset consists of network traffic flows collected using **CICFlowMeterV3**, containing both benign traffic and traffic from **DDoS attacks**. The goal is to **accurately distinguish** between these two classes and deploy an efficient detection system.
+
+---
+
+## 2. Assignment Breakdown
+
+### 2.1 Data Exploration & Analysis
+Before building the model, an **Exploratory Data Analysis (EDA)** was performed to gain insights into the dataset:
+- **Descriptive Statistics**: Understanding the distribution of features.
+- **Data Quality Issues**:
+  - Presence of missing values and outliers.
+  - Identification of highly correlated features for removal.
+- **Visualizations**:
+  - Class distribution (`DDoS: 56.7%, BENIGN: 43.3%`).
+  - Feature importance and correlation heatmaps.
+
+For details, refer to: [`DDoS_detection.ipynb`](DDoS_detection.ipynb).
+
+---
+
+### 2.2 Modeling Strategy
+The chosen model for detecting DDoS attacks is **Random Forest**, due to:
+- **High interpretability**: Feature importance tracking.
+- **Robustness to noisy data**.
+- **Fast inference speed** (~5.3ms per prediction).
+
+#### Limitations:
+- Computationally expensive for large datasets.
+- May require **hyperparameter tuning** to avoid overfitting.
+
+---
+
+### 2.3 Implementation
+
+#### 1. **Setup Environment**
+```bash
+# Clone the repository
+git clone https://github.com/Apurva3509/DuneSec.git
+cd DuneSec
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+#### 2. **Directory Structure**
+```bash
+# Create necessary directories
+mkdir -p data/raw
+mkdir -p data/processed
+mkdir -p data/test
+mkdir -p models/preprocessors
+mkdir -p reports/figures
+mkdir -p logs
+```
+> **Note:** Place your network traffic CSV file in `data/raw/network_traffic.csv`.
+
+#### 3. **Run the Pipeline**
+```bash
+# Step 1: Split the data into train (80%) and test (20%) sets
+python main.py --mode split
+
+# Step 2: Train the model
+python main.py --mode train
+
+# Step 3: Evaluate the model on test set
+python main.py --mode test
+
+# Step 4: Make predictions (when you have new data)
+python main.py --mode predict
+```
+
+#### 4. **View Results**
+- **Model artifacts**: `models/`
+- **Performance metrics**: `reports/results/`
+- **Visualizations**: `reports/figures/`
+- **Logs**: `logs/app.log`
+
+---
+
+### 2.4 Results & Evaluation
+
+The model's performance was evaluated using key classification metrics:
+
+| Metric       | Score  |
+|-------------|--------|
+| **Accuracy**  | 99.2%  |
+| **Precision** | 98.7%  |
+| **Recall**    | 99.5%  |
+| **F1-Score**  | 99.1%  |
+| **ROC-AUC**   | 0.998  |
+| **Avg Prediction Time** | 5.3ms |
+
+#### **Performance Evaluation**
+- **Confusion Matrix**
+- **ROC-AUC Curve**
+- **Feature Importance Analysis**
+
+> **All results and analysis are saved in:** `reports/results/`
+
+---
+
+## 3. Monitoring & Logging
+To ensure reliable performance in real-world scenarios, the system includes:
+- **Real-time Performance Monitoring** (latency, accuracy)
+- **Feature Importance Tracking**
+- **Data Drift Detection**
+- **Model Versioning with MLflow**
+- **Logging** (`logs/app.log`)
+
+---
+
+## 4. Documentation
+
+- 📘 [**Analysis & Insights**](NOTES.md) - **EDA findings and design decisions**
+- 📡 [**API Documentation**](docs/api.md) - **Endpoints & usage**
+- 🎯 [**Model Architecture**](docs/model.md) - **Model structure & training pipeline**
+
+---
+
+## 5. Submission
+Your final submission should include:
+- ✅ **Codebase** (`GitHub repository or compressed file`)
+- ✅ **Concise explanation** of approach and findings
+- ✅ **Performance metrics & evaluation results**
+- ✅ **Figures & visualizations**
+- ✅ **Trained model artifacts (`models/`)**
+
+---
+
+## 6. Contributing
+Want to improve this project? Follow these steps:
+1. **Fork the repository**
+2. **Create a feature branch**
+3. **Commit your changes**
+4. **Push to your branch**
+5. **Create a Pull Request (PR)** 🚀
+
+---
+
+## 7. Future Improvements
+- Implement **XGBoost for better performance**.
+- Develop a **real-time API using FastAPI or Flask**.
+- Improve **feature engineering using domain knowledge**.
+
+---
+
+## 8. Acknowledgments
+Special thanks to **CICFlowMeterV3** for providing the dataset and to all contributors.
+
+---
+
+_Developed by [Apurva Patel](https://github.com/Apurva3509)_
 
 
 ## Project Structure
