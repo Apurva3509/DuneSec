@@ -8,8 +8,7 @@ logger = setup_logger()
 
 def create_initial_split():
     """
-    Perform initial split of data into training (90%) and hold-out test set (10%).
-    This split should be done only once at the start of the project.
+    Perform initial split of data using configuration settings.
     """
     try:
         # Load configuration
@@ -20,12 +19,13 @@ def create_initial_split():
         data_path = Path(config['data']['raw_data_path'])
         df = pd.read_csv(data_path)
         
-        # Perform 90-10 split
+        # Use split ratio from config
+        test_size = config['data']['train_test_split']
         train_data, test_data = train_test_split(
             df,
-            test_size=0.10,  # 10% for hold-out test set
+            test_size=test_size,
             random_state=config['data']['random_state'],
-            stratify=df[config['features']['target']]  # Maintain class distribution
+            stratify=df[config['features']['target']]
         )
         
         # Create directories if they don't exist
