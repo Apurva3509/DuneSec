@@ -87,7 +87,7 @@ class DataPreprocessor:
             # Drop non-relevant columns
             df.drop(columns=self.drop_cols, errors="ignore", inplace=True)
             
-            # Handle categorical features using frequency encoding
+            # Handle categorical features using frequency encoding - None as of now, but can be used if any in future
             for col in self.categorical_features:
                 if col in df.columns:
                     freq_map = df[col].value_counts().to_dict()

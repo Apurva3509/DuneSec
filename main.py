@@ -55,7 +55,7 @@ def main(mode: str):
             preprocessor = DataPreprocessor()
             X, y = preprocessor.fit_transform(df)
             
-            # Create train-test split using config value
+            # train-test split using config value
             test_size = config['data']['train_test_split']
             X_train, X_test, y_train, y_test = train_test_split(
                 X, y, 
@@ -98,11 +98,11 @@ def main(mode: str):
             logger.info(f"Training data loaded successfully. Shape: {X_train.shape}")
             logger.info(f"Class distribution:\n{pd.Series(y_train).value_counts(normalize=True)}")
             
-            # Train model
+            # train model-call trainer
             trainer = ModelTrainer()
             model = trainer.train(X_train, y_train)
             
-            # Save model
+            # save model
             Path("models").mkdir(exist_ok=True)
             joblib.dump(model, "models/random_forest_model.joblib")
             
@@ -111,23 +111,23 @@ def main(mode: str):
             evaluator.evaluate(model, X_train, y_train, "train")
             
         elif mode == 'test':
-            # Load and validate test data
+            # load and validate test data
             test_df = pd.read_csv("data/processed/test.csv")
             
-            # Clean any potential NaN/infinite values
+            # clean any potential NaN/inf values
             test_df = test_df.replace([np.inf, -np.inf], np.nan)
             test_df = test_df.dropna()
             
-            # Split features and target
+            # split features and target
             X_test = test_df.drop('Label', axis=1)
             y_test = test_df['Label']
             
-            # Verify no NaN/infinite values
+            # verify no NaN/inf values
             assert not X_test.isnull().any().any(), "NaN values found in features"
             assert not np.isinf(X_test.values).any(), "Infinite values found in features"
             assert not y_test.isnull().any(), "NaN values found in target"
             
-            # Load model
+            # laod model
             model = joblib.load("models/random_forest_model.joblib")
             
             # Evaluate on test set

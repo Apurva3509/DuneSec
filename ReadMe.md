@@ -265,6 +265,7 @@ curl -X POST "http://localhost:8000/predict" \
 3. **View Documentation**:
 - Swagger UI: http://localhost:8000/docs
 - Detailed API docs: [API Documentation](docs/api.md)
+- Project report slide deck: [Project Report](docs/presentation.pdf)
 
 
 
