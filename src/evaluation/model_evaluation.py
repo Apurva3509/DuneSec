@@ -39,24 +39,24 @@ class ModelEvaluator:
             prediction_time = (end_time - start_time) / len(X) * 1000  # ms per sample
             
             # Get prediction probabilities
-            y_prob = model.predict_proba(X)[:, 1]
+            y_prob = model.predict_proba(X)
             
             # Calculate metrics
             metrics['accuracy'] = accuracy_score(y, y_pred)
             metrics['precision'] = precision_score(y, y_pred)
             metrics['recall'] = recall_score(y, y_pred)
             metrics['f1'] = f1_score(y, y_pred)
-            metrics['roc_auc'] = roc_auc_score(y, y_prob)
+            metrics['roc_auc'] = roc_auc_score(y, y_prob[:, 1])
             metrics['avg_prediction_time_ms'] = prediction_time
             
             # Generate plots
             self._plot_prediction_probabilities(y_prob, dataset_type, timestamp)
-            self._plot_threshold_performance(y, y_prob, dataset_type, timestamp)
-            self._plot_roc_curve(y, y_prob, dataset_type, timestamp)
+            self._plot_threshold_performance(y, y_prob[:, 1], dataset_type, timestamp)
+            self._plot_roc_curve(y, y_prob[:, 1], dataset_type, timestamp)
             self._plot_confusion_matrix(y, y_pred, dataset_type, timestamp)
             
             if hasattr(model, 'feature_importances_'):
-                self._plot_feature_importance(model, X, dataset_type, timestamp)
+                self._plot_feature_importance(model, X.columns, dataset_type, timestamp)
             
             # Save metrics to JSON
             results_file = self.results_path / f"{dataset_type}_results_{timestamp}.json"
@@ -96,12 +96,18 @@ class ModelEvaluator:
     def _plot_prediction_probabilities(self, y_prob, dataset_type, timestamp):
         """Plot distribution of prediction probabilities."""
         plt.figure(figsize=(10, 6))
-        plt.hist(y_prob, bins=50)
-        plt.title(f'Distribution of Prediction Probabilities - {dataset_type.capitalize()} Set')
+        plt.hist(y_prob[:, 1], bins=50, color='skyblue', edgecolor='black')  # Plot probabilities for DDoS class
+        plt.title(f'Distribution of DDoS Prediction Probabilities - {dataset_type.capitalize()} Set')
         plt.xlabel('Probability of DDoS Class')
         plt.ylabel('Count')
-        plt.savefig(self.figures_path / f"prediction_dist_{dataset_type}_{timestamp}.png")
-        plt.close()
+        plt.grid(True, alpha=0.3)
+        
+        # Save the plot
+        plt.savefig(self.figures_path / f"prediction_dist_{dataset_type}_{timestamp}.png", 
+                   bbox_inches='tight', dpi=300)
+        plt.close()  # Close the figure to free memory
+        
+        logger.info(f"Saved prediction distribution plot to: prediction_dist_{dataset_type}_{timestamp}.png")
 
     def _plot_threshold_performance(self, y_true, y_prob, dataset_type, timestamp):
         """Plot performance metrics vs probability threshold."""
@@ -170,8 +176,8 @@ class ModelEvaluator:
         indices = np.argsort(importances)[::-1]
         
         plt.title(f'Feature Importances - {dataset_type.capitalize()} Set')
-        plt.bar(range(X.shape[1]), importances[indices])
-        plt.xticks(range(X.shape[1]), X.columns[indices], rotation=45, ha='right')
+        plt.bar(range(X.shape[0]), importances[indices])
+        plt.xticks(range(X.shape[0]), X[indices], rotation=45, ha='right')
         plt.xlabel('Features')
         plt.ylabel('Importance')
         plt.tight_layout()

@@ -1,0 +1,15 @@
+{
+    "metrics": {
+        "accuracy": 0.9999778511151963,
+        "precision": 1.0,
+        "recall": 0.9999609466531282,
+        "f1": 0.9999804729452657,
+        "roc_auc": 0.9999999160701751,
+        "avg_prediction_time_ms": 0.0014602840930278253,
+        "timestamp": "20250224_200818",
+        "dataset_type": "test",
+        "n_samples": 45149,
+        "n_features": 68
+    },
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00     19543\n           1       1.00      1.00      1.00     25606\n\n    accuracy                           1.00     45149\n   macro avg       1.00      1.00      1.00     45149\nweighted avg       1.00      1.00      1.00     45149\n"
+}
