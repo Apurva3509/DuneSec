@@ -227,7 +227,7 @@ The chosen model for detecting DDoS attacks is **Random Forest**, due to:
 ---
 
 
-#### 4. **View Results**
+## **View Results**
 - **Model artifacts**: `models/`
 - **Performance metrics**: `reports/results/`
 - **Visualizations**: `reports/figures/`
@@ -235,7 +235,7 @@ The chosen model for detecting DDoS attacks is **Random Forest**, due to:
 
 ---
 
-### 2.4 Results & Evaluation
+## Results & Evaluation
 
 The model's performance was evaluated using key classification metrics:
 
@@ -257,7 +257,7 @@ The model's performance was evaluated using key classification metrics:
 
 ---
 
-## 3. Monitoring & Logging
+## Monitoring & Logging
 To ensure reliable performance in real-world scenarios, the system includes:
 - **Real-time Performance Monitoring** (latency, accuracy)
 - **Feature Importance Tracking**
@@ -266,7 +266,7 @@ To ensure reliable performance in real-world scenarios, the system includes:
 
 ---
 
-## 4. Documentation
+## Documentation
 
 - 🔗 [**Analysis & Insights**](docs/NOTES.md) - **EDA findings and design decisions**
 <!-- - 📡 [**API Documentation**](docs/api.md) - **Endpoints & usage** -->
@@ -274,7 +274,7 @@ To ensure reliable performance in real-world scenarios, the system includes:
 
 ---
 
-## 7. Future Improvements
+## Future Improvements
 - Implement **XGBoost for better performance**.
 - Develop a **real-time API using FastAPI or Flask**.
 - Improve **feature engineering using domain knowledge**.
