@@ -52,7 +52,7 @@ param_grid = {
 
 ### Location
 ```
-models/
+model_artifacts/
 ├── random_forest_model.joblib
 ├── label_encoder.joblib
 └── scaler.joblib
