@@ -9,34 +9,12 @@ In this project, we develop a **machine learning solution** for real-time DDoS a
 # Table of Contents
 
 1. [Quick Start Guide](#quick-start-guide-aka-how-to-run-the-code)
-   - [Setup Environment](#1-setup-environment)
-   - [Directory Structure](#2-directory-structure)
-   - [Run the Pipeline](#3-run-the-pipeline)
-
 2. [Assignment Breakdown](#assignment-breakdown)
-   - [Data Exploration & Analysis](#data-exploration--analysis)
-   - [Modeling Strategy](#modeling-strategy)
-
 3. [Implementation Details](#implementation-details)
-   - [Data Pipeline](#1-data-pipeline)
-   - [Model Development](#2-model-development)
-   - [Evaluation System](#3-evaluation-system)
-   - [Production Pipeline](#4-production-pipeline)
-   - [API Implementation](#5-api-implementation)
-
 4. [Using the API](#using-the-api)
-   - [Start the API Server](#1-start-the-api-server)
-   - [Make Predictions](#2-make-predictions-open-a-new-terminal-while-keeping-the-api-running)
-   - [View Documentation](#3-view-documentation)
-
 5. [Results & Evaluation](#results--evaluation)
-   - [Performance Metrics](#results--evaluation)
-   - [Performance Evaluation](#performance-evaluation)
-
 6. [Monitoring & Logging](#monitoring--logging)
-
 7. [Documentation](#documentation)
-
 8. [Future Improvements](#future-improvements)
 
 ---
