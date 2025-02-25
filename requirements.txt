@@ -10,3 +10,16 @@ matplotlib==3.5.2
 seaborn==0.11.2
 joblib==1.1.0 
 tqdm
+# fastapi==0.68.1
+# uvicorn==0.15.0
+
+# API Dependencies
+fastapi==0.68.1
+uvicorn[standard]==0.15.0
+pydantic>=1.8.0
+requests>=2.25.1
+
+# Development Tools
+pytest
+black
+flake8

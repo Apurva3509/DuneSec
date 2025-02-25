@@ -4,6 +4,10 @@ import pandas as pd
 from src.utils.logger import setup_logger
 from tqdm import tqdm
 import time
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+import joblib
+from pathlib import Path
+import logging
 
 logger = setup_logger()
 
@@ -24,8 +28,13 @@ class ModelTrainer:
             "min_samples_split": [2, 5]
         }
 
+        self.scaler = StandardScaler()
+        self.label_encoder = LabelEncoder()
+        self.artifacts_path = Path("models/preprocessors")
+        self.artifacts_path.mkdir(parents=True, exist_ok=True)
+
     def train(self, X_train, y_train):
-        """Train the Random Forest model using GridSearchCV with progress bar."""
+        """Train model and save preprocessors."""
         try:
             logger.info("Starting Random Forest training...")
             logger.info(f"Training data shape: {X_train.shape}")
@@ -80,6 +89,23 @@ class ModelTrainer:
             
             logger.info("\nTop 10 most important features:")
             logger.info(feature_importance.head(10))
+            
+            # Fit and transform the data
+            X_scaled = self.scaler.fit_transform(X_train)
+            y_encoded = self.label_encoder.fit_transform(y_train)
+            
+            # Train the model
+            self.model.fit(X_scaled, y_encoded)
+            
+            # Save preprocessors and feature names
+            joblib.dump(self.scaler, self.artifacts_path / "scaler.joblib")
+            joblib.dump(self.label_encoder, self.artifacts_path / "label_encoder.joblib")
+            joblib.dump(list(X_train.columns), self.artifacts_path / "feature_names.joblib")
+            
+            # Save model
+            joblib.dump(self.model, Path("models") / "random_forest_model.joblib")
+            
+            logging.info("Model and preprocessors saved successfully")
             
             return self.model
             

@@ -222,6 +222,55 @@ The chosen model for detecting DDoS attacks is **Random Forest**, due to:
   - Batch prediction capability
 
 
+...
+
+### 4. API Implementation
+- **FastAPI Service**:
+  - Real-time prediction endpoint
+  - Model artifact management
+  - Input validation
+  - Error handling
+  - Performance monitoring
+
+- **Deployment Options**:
+  - Local development server
+  - Docker containerization
+  - Production-ready setup
+
+- **Testing Tools**:
+  - Interactive test script
+  - Swagger UI documentation
+  - cURL examples
+  - Python client implementation
+
+### Using the API
+
+1. **Start the API Server**:
+```bash
+# Ensure model is trained first
+python main.py --mode train
+
+# Start the API
+uvicorn src.api.app:app --reload --port 8000
+```
+
+2. **Make Predictions**:
+```bash
+# Using test script (recommended for testing)
+python src/api/test_prediction.py
+
+# Or using curl
+curl -X POST "http://localhost:8000/predict" \
+     -H "Content-Type: application/json" \
+     -d '{"features": {...}}'
+```
+
+3. **View Documentation**:
+- Swagger UI: http://localhost:8000/docs
+- Detailed API docs: [API Documentation](docs/api.md)
+
+
+
 #### Limitations:
 - Computationally expensive for large datasets.
 - May require **hyperparameter tuning** to avoid overfitting.
