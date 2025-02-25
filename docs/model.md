@@ -45,8 +45,8 @@ param_grid = {
 - ROC-AUC: 0.998
 
 ### Latency
-- Average Prediction Time: 5.3ms
-- Batch Processing Capability: 1000 samples/second
+- Average Prediction Time: ~5.3ms
+- Batch Processing Capability: 1024 samples
 
 ## Model Artifacts
 
@@ -78,8 +78,6 @@ models/
 ## Monitoring & Maintenance
 
 ### Performance Monitoring
-- Real-time prediction monitoring
-- Feature drift detection
 - Model retraining triggers
 
 ### Logging
@@ -90,10 +88,23 @@ models/
 ## Future Improvements
 1. Implementation of XGBoost for better performance
 2. Feature engineering optimization
-3. Online learning capabilities
+3. API for real-time predictions via Cloud
 4. Model compression for faster inference
+5. Feature drift detection
+
 
 ## References
+
+Links I found helpful:
+
+1. For Data:
+ -  https://www.unb.ca/cic/datasets/ddos-2019.html
+ - https://www.unb.ca/cic/research/applications.html#CICFlowMeter
+
+ ## References:
+ - https://pmc.ncbi.nlm.nih.gov/articles/PMC10578588/pdf/pone.0286652.pdf
+ - https://www.mdpi.com/2076-3417/11/22/10609
+ 
 - [DDoS Detection Notebook](notebooks/DDoS-detection.ipynb)
 - [Model Training Code](src/models/model_trainer.py)
 - [Model Evaluation](src/evaluation/model_evaluation.py) 
