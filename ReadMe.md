@@ -219,10 +219,6 @@ The chosen model for detecting DDoS attacks is **Random Forest**, due to:
   - Preprocessor versioning
   - Batch prediction capability
 
-- **Monitoring System**:
-  - Performance metric logging
-  - Model prediction tracking
-  - Error rate monitoring
 
 #### Limitations:
 - Computationally expensive for large datasets.
