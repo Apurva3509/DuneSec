@@ -116,9 +116,13 @@ In this project, we develop a **machine learning solution** for real-time DDoS a
 
 #### 1. **Setup Environment**
 ```bash
+# Install Git LFS - if not already installed
+brew install git-lfs
+git lfs install
+
 # Clone the repository
 git clone https://github.com/Apurva3509/DuneSec.git
-cd DuneSec
+cd DuneSec-main
 
 # Create virtual environment - OPTIONAL
 python -m venv venv
