@@ -123,7 +123,7 @@ Before building the model, an **Exploratory Data Analysis (EDA)** was performed 
   - Feature importance and correlation heatmaps.
 
 For details, refer to: 
-1. [`Preliminary model notebook`](notebooks/DDoS_detection.ipynb).
+1. [`Preliminary model notebook`](notebooks/DDoS-detection.ipynb).
 2. [`EDA Notebook`](notebooks/data_eda-v2.ipynb).
 ---
 
