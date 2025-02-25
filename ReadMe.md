@@ -224,7 +224,7 @@ The chosen model for detecting DDoS attacks is **Random Forest**, due to:
 
 ...
 
-### 4. API Implementation
+### 5. API Implementation
 - **FastAPI Service**:
   - Real-time prediction endpoint
   - Model artifact management
@@ -235,12 +235,10 @@ The chosen model for detecting DDoS attacks is **Random Forest**, due to:
 - **Deployment Options**:
   - Local development server
   - Docker containerization
-  - Production-ready setup
 
 - **Testing Tools**:
   - Interactive test script
   - Swagger UI documentation
-  - cURL examples
   - Python client implementation
 
 ### Using the API
