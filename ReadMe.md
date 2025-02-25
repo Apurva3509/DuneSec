@@ -122,8 +122,9 @@ Before building the model, an **Exploratory Data Analysis (EDA)** was performed 
   - Class distribution (`DDoS: 56.7%, BENIGN: 43.3%`).
   - Feature importance and correlation heatmaps.
 
-For details, refer to: [`DDoS_detection.ipynb`](DDoS_detection.ipynb).
-
+For details, refer to: 
+1. [`Preliminary model notebook`](notebooks/DDoS_detection.ipynb).
+2. [`EDA Notebook`](notebooks/data_eda-v2.ipynb).
 ---
 
 ### 2.2 Modeling Strategy
