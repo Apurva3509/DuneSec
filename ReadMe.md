@@ -105,6 +105,8 @@ You can find:
 
 # DDoS Attack Detection System
 
+![Project Banner](src/ddos.png)
+
 ## Introduction
 In this project, we develop a **machine learning solution** for real-time DDoS attack detection using **Random Forest classification**. The dataset consists of network traffic flows collected using **CICFlowMeterV3**, containing both benign traffic and traffic from **DDoS attacks**. The goal is to **accurately distinguish** between these two classes and deploy an efficient detection system.
 
