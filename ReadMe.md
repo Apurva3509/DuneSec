@@ -120,11 +120,11 @@ In this project, we develop a **machine learning solution** for real-time DDoS a
 git clone https://github.com/Apurva3509/DuneSec.git
 cd DuneSec
 
-# Create virtual environment
+# Create virtual environment - OPTIONAL
 python -m venv venv
 source venv/bin/activate
 
-# Install dependencies
+# Install dependencies - OPTIONAL
 pip install -r requirements.txt
 ```
 
@@ -151,8 +151,6 @@ python main.py --mode train
 # Step 3: Evaluate the model on test set
 python main.py --mode test
 
-# Step 4: Make predictions (when you have new data)
-python main.py --mode predict
 ```
 ---
 
@@ -249,7 +247,7 @@ python main.py --mode train
 uvicorn src.api.app:app --reload --port 8000
 ```
 
-2. **Make Predictions**:
+2. **Make Predictions (Open a new terminal while keeping the API running)**:
 ```bash
 # Using test script (recommended for testing)
 python src/api/test_prediction.py
