@@ -224,28 +224,8 @@ To ensure reliable performance in real-world scenarios, the system includes:
 ## 4. Documentation
 
 - 📘 [**Analysis & Insights**](NOTES.md) - **EDA findings and design decisions**
-- 📡 [**API Documentation**](docs/api.md) - **Endpoints & usage**
+<!-- - 📡 [**API Documentation**](docs/api.md) - **Endpoints & usage** -->
 - 🎯 [**Model Architecture**](docs/model.md) - **Model structure & training pipeline**
-
----
-
-## 5. Submission
-Your final submission should include:
-- ✅ **Codebase** (`GitHub repository or compressed file`)
-- ✅ **Concise explanation** of approach and findings
-- ✅ **Performance metrics & evaluation results**
-- ✅ **Figures & visualizations**
-- ✅ **Trained model artifacts (`models/`)**
-
----
-
-## 6. Contributing
-Want to improve this project? Follow these steps:
-1. **Fork the repository**
-2. **Create a feature branch**
-3. **Commit your changes**
-4. **Push to your branch**
-5. **Create a Pull Request (PR)** 🚀
 
 ---
 
@@ -253,11 +233,6 @@ Want to improve this project? Follow these steps:
 - Implement **XGBoost for better performance**.
 - Develop a **real-time API using FastAPI or Flask**.
 - Improve **feature engineering using domain knowledge**.
-
----
-
-## 8. Acknowledgments
-Special thanks to **CICFlowMeterV3** for providing the dataset and to all contributors.
 
 ---
 
