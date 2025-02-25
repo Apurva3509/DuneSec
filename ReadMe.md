@@ -181,7 +181,7 @@ The chosen model for detecting DDoS attacks is **Random Forest**, due to:
 
 ### 1. Data Pipeline
 - **Data Ingestion**: 
-  - Implemented network flow data collection using CICFlowMeterV3
+  - Implemented network flow data collection from csv file
   - Built robust data loading with error handling and validation
   - Automated data quality checks for missing values and anomalies
 
@@ -204,7 +204,7 @@ The chosen model for detecting DDoS attacks is **Random Forest**, due to:
 
 ### 3. Evaluation System
 - **Performance Metrics**:
-  - Real-time monitoring of accuracy, precision, recall
+  - Monitoring of accuracy, precision, recall
   - Confusion matrix analysis
   - ROC curve and AUC calculation
 
