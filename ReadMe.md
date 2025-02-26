@@ -65,6 +65,9 @@ python main.py --mode train
 # Step 3: Evaluate the model on test set
 python main.py --mode test
 
+# Step 3: Use the model on test set via WebPage
+python main.py --mode serve
+
 ```
 ---
 
@@ -176,16 +179,56 @@ curl -X POST "http://localhost:8000/predict" \
 - Detailed API docs: [API Documentation](docs/api.md)
 - Swagger UI: http://localhost:8000/docs
 
+---
+## Web Interface for DDoS Detection Demo
 
+### Prerequisites
+```bash
+# Install required packages
+pip install fastapi uvicorn aiofiles matplotlib seaborn
+```
 
+### Steps to Run the Web Interface
 
+1. **Setup Directory Structure**
+```bash
+# Create necessary directories
+mkdir -p src/api/static
+```
 
-#### Limitations:
-- Computationally expensive for large datasets.
-- May require **hyperparameter tuning** to avoid overfitting.
+2. **Copy Background Image**
+```bash
+# Copy background image to static folder
+cp docs/webpage-bg.png src/api/static/
+```
+
+3. **Run the Web Server**
+```bash
+# Start the FastAPI server
+python main.py --mode serve
+```
+
+4. **Access the Webpage**
+- Open your web browser
+- Go to: http://localhost:8000
+- Enter an index number (0-1000) to test different samples
+- View predictions, confidence scores, and feature visualizations
+
+### Features
+- Real-time predictions
+- Confidence score visualization
+- Top 5 important features display
+- Feature value plots
+- Inference time measurement
+- Responsive design
+
+### Troubleshooting
+- If you get a "Module not found" error, ensure all required packages are installed
+- If the background image doesn't load, verify the image path in static folder
+- If the server fails to start, ensure port 8000 is not in use
+
 
 ---
-
 
 ## **View Results**
 - **Model artifacts**: `models/`
@@ -252,199 +295,3 @@ To ensure reliable performance in real-world scenarios, the system includes:
 
 _Developed by [Apurva Patel](https://www.patelapurva.com)_
 
-<!-- ## Project Structure
-```
-.
-├── config/
-│   └── config.yaml
-├── data/
-│   ├── processed/
-│   │   ├── test.csv
-│   │   └── train.csv
-│   └── raw/
-│       ├── data-original.csv
-│       └── network_traffic.csv
-├── docs/
-│   ├── NOTES.md
-│   ├── model.md
-│   └── Presentation.pdf
-├── logs/
-│   └── app.log
-├── mlruns/
-│   ├── 0/
-│   │   ├── 2e9eff9f94e34abb994c9520cdae5fc0/
-│   │   │   ├── artifacts/
-│   │   │   ├── metrics/
-│   │   │   │   ├── test_accuracy
-│   │   │   │   └── test_roc_auc
-│   │   │   ├── params/
-│   │   │   ├── tags/
-│   │   │   │   ├── mlflow.source.git.commit
-│   │   │   │   ├── mlflow.source.name
-│   │   │   │   ├── mlflow.source.type
-│   │   │   │   └── mlflow.user
-│   │   │   └── meta.yaml
-│   │   ├── 3625057b68ce49c9a27ca9b56ffe27ad/
-│   │   │   ├── artifacts/
-│   │   │   ├── metrics/
-│   │   │   │   ├── test_accuracy
-│   │   │   │   └── test_roc_auc
-│   │   │   ├── params/
-│   │   │   ├── tags/
-│   │   │   │   ├── mlflow.source.git.commit
-│   │   │   │   ├── mlflow.source.name
-│   │   │   │   ├── mlflow.source.type
-│   │   │   │   └── mlflow.user
-│   │   │   └── meta.yaml
-│   │   ├── 6077e262c3d74f9e8ef2d9c405cbaf95/
-│   │   │   ├── artifacts/
-│   │   │   ├── metrics/
-│   │   │   │   ├── test_accuracy
-│   │   │   │   └── test_roc_auc
-│   │   │   ├── params/
-│   │   │   ├── tags/
-│   │   │   │   ├── mlflow.source.git.commit
-│   │   │   │   ├── mlflow.source.name
-│   │   │   │   ├── mlflow.source.type
-│   │   │   │   └── mlflow.user
-│   │   │   └── meta.yaml
-│   │   └── meta.yaml
-│   └── 1/
-│       ├── 081055f970e441f993a39423ed6cf9c3/
-│       │   ├── artifacts/
-│       │   ├── metrics/
-│       │   │   ├── cv_score_mean
-│       │   │   └── cv_score_std
-│       │   ├── params/
-│       │   │   ├── eval_metric
-│       │   │   ├── learning_rate
-│       │   │   ├── max_depth
-│       │   │   ├── n_estimators
-│       │   │   └── objective
-│       │   ├── tags/
-│       │   │   ├── mlflow.source.git.commit
-│       │   │   ├── mlflow.source.name
-│       │   │   ├── mlflow.source.type
-│       │   │   └── mlflow.user
-│       │   └── meta.yaml
-│       ├── 27e907663df046ed8a200124db985bc6/
-│       │   ├── artifacts/
-│       │   ├── metrics/
-│       │   │   ├── test_accuracy
-│       │   │   └── test_roc_auc
-│       │   ├── params/
-│       │   ├── tags/
-│       │   │   ├── mlflow.source.git.commit
-│       │   │   ├── mlflow.source.name
-│       │   │   ├── mlflow.source.type
-│       │   │   └── mlflow.user
-│       │   └── meta.yaml
-│       ├── 511934cf31b04653a01169ddbd3c5bf1/
-│       │   ├── artifacts/
-│       │   ├── metrics/
-│       │   │   ├── cv_score_mean
-│       │   │   └── cv_score_std
-│       │   ├── params/
-│       │   │   ├── eval_metric
-│       │   │   ├── learning_rate
-│       │   │   ├── max_depth
-│       │   │   ├── n_estimators
-│       │   │   └── objective
-│       │   ├── tags/
-│       │   │   ├── mlflow.source.git.commit
-│       │   │   ├── mlflow.source.name
-│       │   │   ├── mlflow.source.type
-│       │   │   └── mlflow.user
-│       │   └── meta.yaml
-│       ├── a5b66f52f27446a1b518ab7908032e80/
-│       │   ├── artifacts/
-│       │   ├── metrics/
-│       │   ├── params/
-│       │   ├── tags/
-│       │   │   ├── mlflow.source.git.commit
-│       │   │   ├── mlflow.source.name
-│       │   │   ├── mlflow.source.type
-│       │   │   └── mlflow.user
-│       │   └── meta.yaml
-│       ├── f55208b492c34e9cb3bf89795f6d14af/
-│       │   ├── artifacts/
-│       │   ├── metrics/
-│       │   │   ├── cv_score_mean
-│       │   │   └── cv_score_std
-│       │   ├── params/
-│       │   │   ├── eval_metric
-│       │   │   ├── learning_rate
-│       │   │   ├── max_depth
-│       │   │   ├── n_estimators
-│       │   │   └── objective
-│       │   ├── tags/
-│       │   │   ├── mlflow.source.git.commit
-│       │   │   ├── mlflow.source.name
-│       │   │   ├── mlflow.source.type
-│       │   │   └── mlflow.user
-│       │   └── meta.yaml
-│       ├── fa8e4d6257cc419f911eaa4caa61d2a2/
-│       │   ├── artifacts/
-│       │   ├── metrics/
-│       │   ├── params/
-│       │   ├── tags/
-│       │   │   ├── mlflow.source.git.commit
-│       │   │   ├── mlflow.source.name
-│       │   │   ├── mlflow.source.type
-│       │   │   └── mlflow.user
-│       │   └── meta.yaml
-│       └── meta.yaml
-├── model_artifacts/
-│   ├── label_encoder.joblib
-│   ├── random_forest_model.joblib
-│   └── scaler.joblib
-├── model_artifacts_20250224_1356/
-│   ├── label_encoder.joblib
-│   ├── model.joblib
-│   └── scaler.joblib
-├── models/
-│   └── random_forest_model.joblib
-├── notebooks/
-│   ├── DDoS-detection.ipynb
-│   ├── data_eda-v1.ipynb
-│   ├── data_eda-v2.ipynb
-│   ├── final-v1.ipynb
-│   ├── trial-v1.ipynb
-│   └── wandb-run-v1.ipynb
-├── reports/
-│   ├── figures/
-│   │   ├── confusion_matrix_test_20250224_200818.png
-│   │   ├── confusion_matrix_train_20250224_200802.png
-│   │   ├── feature_importance_test_20250224_200818.png
-│   │   ├── feature_importance_train_20250224_200802.png
-│   │   ├── prediction_dist_test_20250224_200818.png
-│   │   ├── prediction_dist_train_20250224_200802.png
-│   │   ├── roc_curve_test_20250224_200818.png
-│   │   ├── roc_curve_train_20250224_200802.png
-│   │   ├── threshold_performance_test_20250224_200818.png
-│   │   └── threshold_performance_train_20250224_200802.png
-│   └── results/
-│       ├── test_results_20250224_200818.json
-│       └── train_results_20250224_200802.json
-├── scripts/
-│   └── generate_tree.py
-├── src/
-│   ├── data/
-│   │   ├── data_ingestion.py
-│   │   ├── data_preprocessing.py
-│   │   └── initial_split.py
-│   ├── evaluation/
-│   │   ├── model_evaluation.py
-│   │   └── test_predictor.py
-│   ├── models/
-│   │   ├── model_builder.py
-│   │   └── model_trainer.py
-│   └── utils/
-│       └── logger.py
-├── Dockerfile
-├── ReadMe.md
-├── ai_engineer_assignment.pdf
-├── main.py
-└── requirements.txt
-```
- -->

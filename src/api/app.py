@@ -1,10 +1,16 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import HTMLResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 import pandas as pd
 import joblib
-from pathlib import Path
 import numpy as np
+from pathlib import Path
 import time
+import matplotlib.pyplot as plt
+import seaborn as sns
+import io
+import base64
 from typing import List, Dict
 from src.utils.logger import setup_logger
 
@@ -15,6 +21,21 @@ app = FastAPI(
     description="API for real-time DDoS attack detection",
     version="1.0.0"
 )
+
+# Load test data
+test_data = pd.read_csv("data/processed/test.csv")
+X_test = test_data.drop('Label', axis=1)
+y_test = test_data['Label']
+model = joblib.load("models/random_forest_model.joblib")
+
+# Get feature importance once
+feature_importance = pd.DataFrame({
+    'feature': X_test.columns,
+    'importance': model.feature_importances_
+}).sort_values('importance', ascending=False)
+
+# Mount static files
+app.mount("/static", StaticFiles(directory="src/api/static"), name="static")
 
 class NetworkFlow(BaseModel):
     features: Dict[str, float]
@@ -106,10 +127,28 @@ class ModelService:
 # Initialize model service
 model_service = ModelService()
 
-@app.get("/")
+@app.get("/", response_class=HTMLResponse)
 async def root():
-    """Basic health check."""
-    return {"status": "API is running"}
+    with open('src/api/static/index.html', 'r') as f:
+        return f.read()
+
+@app.get("/banner")
+async def get_banner():
+    return FileResponse("src/ddos.png")
+
+def create_feature_plot(features):
+    plt.figure(figsize=(10, 4))
+    plt.bar(features.keys(), features.values())
+    plt.xticks(rotation=45, ha='right')
+    plt.title('Feature Values')
+    plt.tight_layout()
+    
+    # Convert plot to base64 string
+    buf = io.BytesIO()
+    plt.savefig(buf, format='png')
+    plt.close()
+    buf.seek(0)
+    return base64.b64encode(buf.getvalue()).decode('utf-8')
 
 @app.get("/health")
 async def health_check():
@@ -141,4 +180,45 @@ def predict(flow: NetworkFlow):
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e)) 
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/predict/{index}")
+async def predict_sample(index: int):
+    try:
+        # Get sample from test data
+        X_sample = X_test.iloc[index]
+        true_label = y_test.iloc[index]
+        
+        # Measure inference time
+        start_time = time.time()
+        
+        # Make prediction
+        X_sample_reshaped = X_sample.values.reshape(1, -1)
+        prediction = model.predict(X_sample_reshaped)[0]
+        probabilities = model.predict_proba(X_sample_reshaped)[0]
+        
+        # Calculate inference time
+        inference_time = (time.time() - start_time) * 1000  # Convert to milliseconds
+        
+        # Get probability for the predicted class
+        prob = probabilities[1] if prediction == 1 else probabilities[0]
+        
+        # Get top 5 most important features for this sample
+        top_features = {}
+        for feature in feature_importance['feature'][:5]:
+            top_features[feature] = float(X_sample[feature])
+        
+        # Create feature plot
+        feature_plot = create_feature_plot(top_features)
+        
+        return {
+            "index": index,
+            "prediction": int(prediction),
+            "true_label": int(true_label),
+            "probability": float(prob),
+            "features": top_features,
+            "feature_plot": feature_plot,
+            "inference_time": round(inference_time, 2)
+        }
+    except IndexError:
+        raise HTTPException(status_code=404, detail=f"Index {index} out of bounds") 

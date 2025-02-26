@@ -134,6 +134,10 @@ def main(mode: str):
             evaluator = ModelEvaluator()
             evaluator.evaluate(model, X_test, y_test, "test")
             
+        elif mode == 'serve':
+            import uvicorn
+            uvicorn.run("src.api.app:app", host="0.0.0.0", port=8000, reload=True)
+            
     except Exception as e:
         logger.error(f"Error in main execution: {str(e)}")
         raise
@@ -141,7 +145,7 @@ def main(mode: str):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--mode', type=str, required=True, 
-                      choices=['split', 'train', 'test'],
-                      help='Mode of operation: split, train, or test')
+                      choices=['split', 'train', 'test', 'serve'],
+                      help='Mode of operation: split, train, test, or serve')
     args = parser.parse_args()
     main(args.mode) 
