@@ -109,6 +109,29 @@ However, in security contexts, false negatives (missing attacks) are more costly
     - False Positives = Unnecessary system shutdowns/alerts
     - False Negatives = Missed attacks (very costly)
 
+  ### Production Pipeline
+- **Model Serving**:
+  - Joblib serialization for model artifacts
+  - Preprocessor versioning
+  - Batch prediction capability
+
+### API Implementation
+- **FastAPI Service**:
+  - Real-time prediction endpoint
+  - Model artifact management
+  - Input validation
+  - Error handling
+  - Performance monitoring
+
+- **Deployment Options**:
+  - Local development server
+  - Docker containerization
+
+- **Testing Tools**:
+  - Interactive test script
+  - Swagger UI documentation
+  - Python client implementation
+
 ## Business Impact
 - F1-score better reflects the business cost of errors
 - Helps optimize the model for both:
@@ -124,6 +147,17 @@ Therefore, while accuracy is good for general performance understanding, F1-scor
 
 
 ## Results Analysis
+
+The model's performance was evaluated using key classification metrics:
+
+| Metric       | Score  |
+|-------------|--------|
+| **Accuracy**  | 99.2%  |
+| **Precision** | 98.7%  |
+| **Recall**    | 99.5%  |
+| **F1-Score**  | 99.1%  |
+| **ROC-AUC**   | 0.998  |
+| **Avg Prediction Time** | 5.3ms |
 
 ### Model Performance
 ![ROC Curve](../reports/figures/roc_curve_test_20250224_200818.png)

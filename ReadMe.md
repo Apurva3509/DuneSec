@@ -86,6 +86,7 @@ Before building the model, an **Exploratory Data Analysis (EDA)** was performed 
 For details, refer to: 
 1. [`Preliminary model notebook`](notebooks/DDoS-detection.ipynb).
 2. [`EDA Notebook`](notebooks/data_eda-v2.ipynb).
+3. ['Technical Report'](docs/Report-Apurva.pdf).
 ---
 
 ### Modeling Strategy
@@ -94,64 +95,7 @@ The chosen model for detecting DDoS attacks is **Random Forest**, due to:
 - **Robustness to noisy data**.
 - **Fast inference speed** (~5.3ms per prediction).
 
-## Implementation Details
-
-### 1. Data Pipeline
-- **Data Ingestion**: 
-  - Implemented network flow data collection from csv file
-  - Built robust data loading with error handling and validation
-  - Automated data quality checks for missing values and anomalies
-
-- **Preprocessing Pipeline**:
-  - Feature scaling using StandardScaler
-  - Label encoding for target variable
-  - Feature selection based on correlation analysis
-  - Data split: 80% training, 20% testing (configured in config.yaml)
-
-### 2. Model Development
-- **Algorithm Selection**:
-  - Evaluated multiple models (Random Forest, XGBoost, Neural Networks, Logistic regression)
-  - Selected Random Forest for best balance of accuracy and inference speed
-  - Implemented 5-fold cross-validation for robust evaluation
-
-- **Hyperparameter Optimization**:
-  - Grid search for parameter tuning
-  - Optimized for F1-score
-  - Parameters tracked using MLflow
-
-### 3. Evaluation System
-- **Performance Metrics**:
-  - Monitoring of accuracy, precision, recall
-  - Confusion matrix analysis
-  - ROC curve and AUC calculation
-
-- **Visualization Pipeline**:
-  - Automated generation of performance plots
-  - Feature importance visualization
-  - Prediction distribution analysis
-
-### 4. Production Pipeline
-- **Model Serving**:
-  - Joblib serialization for model artifacts
-  - Preprocessor versioning
-  - Batch prediction capability
-
-### 5. API Implementation
-- **FastAPI Service**:
-  - Real-time prediction endpoint
-  - Model artifact management
-  - Input validation
-  - Error handling
-  - Performance monitoring
-
-- **Deployment Options**:
-  - Local development server
-  - Docker containerization
-
-- **Testing Tools**:
-  - Interactive test script
-  - Swagger UI documentation
-  - Python client implementation
+## [Implementation Details](docs/NOTES.md)
 
 ### Using the API
 
@@ -238,19 +182,6 @@ python main.py --mode serve
 
 ---
 
-## Results & Evaluation
-
-The model's performance was evaluated using key classification metrics:
-
-| Metric       | Score  |
-|-------------|--------|
-| **Accuracy**  | 99.2%  |
-| **Precision** | 98.7%  |
-| **Recall**    | 99.5%  |
-| **F1-Score**  | 99.1%  |
-| **ROC-AUC**   | 0.998  |
-| **Avg Prediction Time** | 5.3ms |
-
 #### **Performance Evaluation**
 - **Confusion Matrix**
 - **ROC-AUC Curve**
@@ -264,7 +195,6 @@ The model's performance was evaluated using key classification metrics:
 To ensure reliable performance in real-world scenarios, the system includes:
 - **Real-time Performance Monitoring** (latency, accuracy)
 - **Feature Importance Tracking**
-- **Data Drift Detection**
 - **Logging** (`logs/app.log`)
 
 ---
@@ -274,8 +204,6 @@ To ensure reliable performance in real-world scenarios, the system includes:
 - 🔗 [**Technical Report**](docs/Report-Apurva.pdf) - **Technical report for the assesment**
 - 🔗 [**Analysis & Insights**](docs/NOTES.md) - **EDA findings and design decisions**
 - 📍 [**Model Architecture**](docs/model.md) - **Model structure & training pipeline**
-<!-- - 📡 [**API Documentation**](docs/api.md) - **Endpoints & usage** -->
-
 
 ---
 
