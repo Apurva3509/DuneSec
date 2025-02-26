@@ -12,11 +12,10 @@ In this project, we develop a **machine learning solution** for real-time DDoS a
 2. [Assignment Breakdown](#assignment-breakdown)
 3. [Implementation Details](#implementation-details)
 4. [Using the API](#using-the-api)
-5. [Results & Evaluation](#results--evaluation)
-6. [Monitoring & Logging](#monitoring--logging)
-7. [Documentation](#documentation)
-8. [Future Improvements](#future-improvements)
-9. [References](#references)
+5. [Monitoring & Logging](#monitoring--logging)
+6. [Documentation](#documentation)
+7. [Future Improvements](#future-improvements)
+8. [References](#references)
 
 ---
 
