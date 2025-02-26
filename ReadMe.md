@@ -106,7 +106,7 @@ The chosen model for detecting DDoS attacks is **Random Forest**, due to:
 
 ### 2. Model Development
 - **Algorithm Selection**:
-  - Evaluated multiple models (Random Forest, XGBoost, Neural Networks)
+  - Evaluated multiple models (Random Forest, XGBoost, Neural Networks, Logistic regression)
   - Selected Random Forest for best balance of accuracy and inference speed
   - Implemented 5-fold cross-validation for robust evaluation
 
