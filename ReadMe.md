@@ -139,31 +139,24 @@ pip install fastapi uvicorn aiofiles matplotlib seaborn
 mkdir -p src/api/static
 ```
 
-2. **Copy Background Image**
-```bash
-# Copy background image to static folder
-cp docs/webpage-bg.png src/api/static/
-```
-
-3. **Run the Web Server**
+2. **Run the Web Server**
 ```bash
 # Start the FastAPI server
 python main.py --mode serve
 ```
 
-4. **Access the Webpage**
+3. **Access the Webpage**
 - Open your web browser
 - Go to: http://localhost:8000
 - Enter an index number (0-1000) to test different samples
 - View predictions, confidence scores, and feature visualizations
 
 ### Features
-- Real-time predictions
+- Real-time predictions using index of data from test set
 - Confidence score visualization
 - Top 5 important features display
 - Feature value plots
 - Inference time measurement
-- Responsive design
 
 ### Troubleshooting
 - If you get a "Module not found" error, ensure all required packages are installed
