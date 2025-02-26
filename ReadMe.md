@@ -230,8 +230,9 @@ To ensure reliable performance in real-world scenarios, the system includes:
 - 🔗 [**Assesment Presentation**](docs/Presentation.pdf) - **Slides for the assesment presentation**
 - 🔗 [**Technical Report**](docs/Report-Apurva.pdf) - **Technical report for the assesment**
 - 🔗 [**Analysis & Insights**](docs/NOTES.md) - **EDA findings and design decisions**
-<!-- - 📡 [**API Documentation**](docs/api.md) - **Endpoints & usage** -->
 - 📍 [**Model Architecture**](docs/model.md) - **Model structure & training pipeline**
+<!-- - 📡 [**API Documentation**](docs/api.md) - **Endpoints & usage** -->
+
 
 ---
 
