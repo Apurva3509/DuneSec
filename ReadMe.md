@@ -16,6 +16,7 @@ In this project, we develop a **machine learning solution** for real-time DDoS a
 6. [Monitoring & Logging](#monitoring--logging)
 7. [Documentation](#documentation)
 8. [Future Improvements](#future-improvements)
+9. [References](#references)
 
 ---
 
@@ -172,9 +173,10 @@ curl -X POST "http://localhost:8000/predict" \
 ```
 
 3. **View Documentation**:
-- Swagger UI: http://localhost:8000/docs
 - Detailed API docs: [API Documentation](docs/api.md)
-- Project report slide deck: [Project Report](docs/Presentation.pdf)
+- Swagger UI: http://localhost:8000/docs
+
+
 
 
 
@@ -225,7 +227,8 @@ To ensure reliable performance in real-world scenarios, the system includes:
 ---
 
 ## Documentation
-
+- 🔗 Project report slide deck: [Project Report](docs/Presentation.pdf)
+- 🔗 Technical Report: [Technical Report](docs/Report-Apurva.pdf)
 - 🔗 [**Analysis & Insights**](docs/NOTES.md) - **EDA findings and design decisions**
 <!-- - 📡 [**API Documentation**](docs/api.md) - **Endpoints & usage** -->
 - 📍 [**Model Architecture**](docs/model.md) - **Model structure & training pipeline**
@@ -238,6 +241,13 @@ To ensure reliable performance in real-world scenarios, the system includes:
 - Improve **feature engineering using domain knowledge**.
 
 ---
+
+
+## References:
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10578588/pdf/pone.0286652.pdf
+- https://www.mdpi.com/2076-3417/11/22/10609
+-  https://www.unb.ca/cic/datasets/ddos-2019.html
+- https://www.unb.ca/cic/research/applications.html#CICFlowMeter
 
 _Developed by [Apurva Patel](https://www.patelapurva.com)_
 
